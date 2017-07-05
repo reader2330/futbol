@@ -1,0 +1,107 @@
+h3{
+	color: black;	
+}
+
+.noticias{
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	height: 400px;
+}
+
+.noticia{
+	flex: 0 1 33%;
+	height: 200px;
+
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+.resultados{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	height: 600px;
+}
+.texto{
+
+	flex: 1 1 75%;
+
+}
+.resultado{
+	flex: 0 1 33%;
+	height: 120px;
+
+}
+	.resulatado p{
+		font-size: 25px;
+	}
+.card{
+	height: 170px;
+	width: 300px;
+	border: 3px outside black;
+}
+
+.card-block{
+
+	display: flex;
+	height: 200px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.izq{
+
+	flex: 0 1 40%;
+
+}
+
+.izq p{
+		font-size: 20px;
+	}
+
+.der{
+
+	flex: 0 1 40%;
+
+}
+
+	.der p{
+		font-size: 20px;
+	}
+
+
+.time{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	
+}
+	.fb{
+		flex: 0 1 45%;
+		margin-right: 30px;
+
+	}
+
+	.tw{
+		flex: 0 1 45%;
+		
+
+	}
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+.titulo{
+
+	font-size: 70px;
+}
+
+h6{
+	color: white;
+}
+
+.container{
+	display: flex;
+	height: 100%;
+	
+}
+	
+	.slide{
+		flex: 0 1 60%;
+		background:black;
+		height: 200px;
+	}
+
+	.ladoizquierdo{
+		flex:0 1 60%;
+		background: blue;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+		.fb{
+			flex: 0 1 50%;
+			background: red;
+			height: 100px;
+			margin-left:120px;
+		}
+
+		.resultados{
+			flex: 0 1 100%;
+			background: green;
+			height: 300px;
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+
+		.anot{
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+			.resultado{
+				flex: 0 1 30%;
+				height: 100px;
+				background: black;
+				display: flex;
+				margin-top: 20px;
+				margin-left: 10px;
+				margin-right: 5px;
+			}
+
+				.izq{
+					flex : 0 1 50%;
+					margin-left: 10px;
+					margin-top: 10px;
+
+				}
+
+				.der{
+					flex: 0 1 50%;
+					margin-left: 10px;
+					margin-top: 10px;
+				}
+
+		.noticias{
+			flex: 0 1 100%;
+			background: violet;
+			height: 300px;
+			display: flex;
+			flex-wrap: wrap;
+		}
+			.noticia{
+				flex: 0 1 30%;
+				height: 270px;
+				margin-top: 20px;
+				background: black;
+			}
+
+
+	.ladoderecho{
+		flex: 0 1 40%;
+		display: flex;
+		background: red;
+		flex-wrap: wrap;
+	}
+
+		.puntos{
+			flex: 1 1 100%;
+			background: orange;
+
+		}
+
+		.goles{
+			flex: 1 1 100%;
+			background: gray;
+		}

@@ -1,0 +1,44 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Categorias extends CI_Controller {
+
+	function __construct(){
+		parent::__construct();
+		$this->load->helper('url');
+	}
+
+	public function LigaMX(){
+
+		$data['titulo'] = 'LigaMX';
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/LigaMX');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function LigaEspanola(){
+		
+		$data['titulo'] = 'Liga Española';
+
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/LigaEspanola');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function LigaInglesa(){
+
+		$data['titulo'] = 'Liga Inglesa';
+
+
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/LigaInglesa');
+		$this->load->view('futbol/footer');
+
+	}
+
+}
+
+?>
