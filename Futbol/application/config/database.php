@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'dsn'	=> 'ns1194.il.controladordns.com',
+	'hostname' => '67.227.236.210',
+	'username' => 'patadain',
+	'password' => 'I0mu656Xmu',
+	'database' => 'patadain_Usuarios',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
