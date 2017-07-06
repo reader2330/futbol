@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="<?= base_url();?>img/futbol1.jpeg" alt="Futbol" >
+					<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/Osorio.jpg" alt="Futbol" >
 					<div class="carousel-caption d-none d-md-block">
 						<h3>Patada Inicial</h3>
 						<p>La mejor pagina para conocer de futbol</p>

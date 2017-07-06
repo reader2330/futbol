@@ -39,6 +39,17 @@ class Categorias extends CI_Controller {
 
 	}
 
+	public function CopaOro(){
+
+		$data['titulo'] = 'Copa Oro';
+
+
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/CopaOro');
+		$this->load->view('futbol/footer');
+
+	}
+
 }
 
 ?>

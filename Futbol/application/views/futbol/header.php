@@ -43,7 +43,7 @@
 						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/LigaMX">Liga MX</a>
 						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/LigaEspanola">Liga Española</a>
 						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/LigaInglesa">Liga Inglesa</a>
-						<a class="dropdown-item" href="#">Confederaciones</a>
+						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/CopaOro">Copa Oro</a>
 					</div>
 				</li>
 				<li class="nav-item">
