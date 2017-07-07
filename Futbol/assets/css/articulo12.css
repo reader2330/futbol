@@ -1,0 +1,38 @@
+
+h1{
+
+	font-size: 50px;
+}
+
+img{
+  width: 100%;
+}
+
+
+
+.contenido{
+	display: flex;
+	height: 500px;
+	
+	flex-direction: row;
+}
+	.datos{
+		flex: 0 1 25%;
+		height: 200px;
+		
+
+
+	}
+	.texto{
+		flex: 1 1 65%;
+		height: 100%;
+	
+	}
+
+.imagen{
+
+	height: 300px;
+	width: 800px;
+	margin: auto;
+}
+

@@ -1,0 +1,35 @@
+
+h1{
+
+	font-size: 80px;
+}
+
+img{
+  width: 100%;
+}
+
+.contenido{
+	display: flex;
+	height: 500px;
+	background: black;
+	flex-direction: row;
+}
+	.datos{
+		flex: 0 1 25%;
+		height: 200px;
+		background: red;
+
+
+	}
+	.texto{
+		flex: 1 1 65%;
+		height: 400px;
+		background: blue;
+	}
+
+.imagen{
+
+	height: 300px;
+	width: 500px;
+	margin: auto;
+}

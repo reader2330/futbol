@@ -24,18 +24,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/Osorio.jpg" alt="Futbol" >
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Patada Inicial</h3>
-						<p>La mejor pagina para conocer de futbol</p>
-					</div>
+					<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/Osorio2.jpg" alt="Futbol" >
+					
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="<?= base_url();?>img/2.jpg" alt="Second slide">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Patada Inicial</h3>
-						<p>La mejor pagina para conocer de futbol</p>
-					</div>
+					<img class="d-block img-fluid" src="<?= base_url();?>img/Pulido/Pulido.jpg" alt="Second slide">
+					
 				</div>
 				<div class="carousel-item">
 					<img class="d-block img-fluid" src="<?= base_url();?>img/3.jpg" alt="Third slide">
