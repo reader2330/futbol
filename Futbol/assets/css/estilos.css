@@ -2,6 +2,10 @@ h3{
 	color: black;	
 }
 
+.inicio{
+	margin-right: 50px;
+}
+
 .noticias{
 
 	display: flex;

@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <head>
 
-
+<link rel="stylesheet" type="text/css" href="<? base_url() ?>/assets/css/botones5.css">
 
 
 </head>
@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/Osorio2.jpg" alt="Futbol" >
+					<a href="<?= base_url(); ?>"><img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/Osorio2.jpg" alt="Futbol" >
 					
 				</div>
 				<div class="carousel-item">
@@ -32,10 +32,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="<?= base_url();?>img/3.jpg" alt="Third slide">
+					<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/osorio21.jpg" alt="Third slide">
 					<div class="carousel-caption d-none d-md-block">
-						<h3>Patada Inicial</h3>
-						<p>La mejor pagina para conocer de futbol</p>
+						
 					</div>
 				</div>
 			</div>
@@ -60,7 +59,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 			<div class="texto">
-				<h2 align="center">Copa Confederaciones 2017</h2>
+				<h2 align="center">Copa ORO 2017</h2>
+				<br>
+				<br>
+				<center class="centrar">
+					<a href="<? base_url(); ?>Categorias/CopaOro" class="btn btn-primary" id="inicio" style="margin-left:55px">Leer más</a>
+				</center>
 			</div>
 			<div class="resultado">
 
@@ -70,8 +74,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="card-block">
 						<div class="izq">
 							<br>
-							<p align="center"> México </p>
-							<img src="<?= base_url();?>img/paises/mexico.jpg" width=110	 alt="mexico">
+							<p align="center"> Guayana </p>
+							<img src="<?= base_url();?>img/paises/guayana.png" width=100 alt="guayana">
 							<br>
 							<br>
 							<p align="center"> 2</p>
@@ -79,11 +83,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<strong>VS</strong>
 						<div class="der"> 
 							<br>
-							<p align="center">Rusia</p>
-							<img src="<?= base_url(); ?>img/paises/Rusia.gif" width=100> 
+							<p align="center">Canada</p>
+							<img src="<?= base_url(); ?>img/paises/canada.png" width=120 alt="canada"> 
 							<br>
 							<br>
-							<p align="center"> 1 </p>
+							<p align="center">4</p>
 						</div>  
 
 						<br>
@@ -99,17 +103,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="card-block">
 						<div class="izq">
 							<br>
-							<p align="center"> Alemania </p>
-							<img src="<?= base_url();?>img/paises/alemania.jpeg" width=100 alt="alemania">
+							<p align="center"> Honduras </p>
+							<img src="<?= base_url();?>img/paises/honduras.png" width=100 alt="honduras">
 							<br>
 							<br>
-							<p align="center"> 3</p>
+							<p align="center"> 0</p>
 						</div>
 						<strong>VS</strong>
 						<div class="der"> 
 							<br>
-							<p align="center">Camerun</p>
-							<img src="<?= base_url(); ?>img/paises/camerun.png" width=120> 
+							<p align="center">Costa Rica</p>
+							<img src="<?= base_url(); ?>img/paises/costarica.png" width=100 alt="costarica"> 
 							<br>
 							<br>
 							<p align="center"> 1 </p>
@@ -127,17 +131,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="card-block">
 						<div class="izq">
 							<br>
-							<p align="center"> Chile </p>
-							<img src="<?= base_url();?>img/paises/chile.jpg" width=100 alt="alemania">
+							<p align="center"> USA </p>
+							<img src="<?= base_url();?>img/paises/usa.png" width=100 alt="USA">
 							<br>
 							<br>
-							<p align="center"> 0</p>
+							<p align="center"> 1</p>
 						</div>
 						<strong>VS</strong>
 						<div class="der"> 
 							<br>
-							<p align="center">Australia</p>
-							<img src="<?= base_url(); ?>img/paises/australia.jpeg" width=120> 
+							<p align="center">Panama</p>
+							<img src="<?= base_url(); ?>img/paises/panama.png" width=100 alt="Panama"> 
 							<br>
 							<br>
 							<p align="center"> 1 </p>
@@ -150,9 +154,91 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="resultado">
+			<div class="card">
+
+					<div class="card-block">
+						<div class="izq">
+							
+							<p align="center">Martinica</p>
+							<img src="<?= base_url();?>img/paises/martinica.png" width=80 alt="Martinica">
+							
+				
+							<p align="center"> 2</p>
+						</div>
+						<strong>VS</strong>
+						<div class="der"> 
+
+							<p align="center">Nicaragua</p>
+							
+						
+							<img src="<?= base_url(); ?>img/paises/nicaragua.png" width=100 alt="nicaragua"> 
+							<br>
+							<br>
+							<p align="center"> 0 </p>
+						</div>  
+
+						<br>
+						<br>
+
+					</div>
+				</div>
 			</div>
-			<div class="resultado"></div>
-			<div class="resultado"></div>
+			<div class="resultado">
+				<div class="card">
+
+					<div class="card-block">
+						<div class="izq">
+							<br>
+							<p align="center">Curazao</p>
+							<img src="<?= base_url();?>img/paises/curazao.png" width=100 alt="Curazao">
+							<br>
+							<br>
+							<p align="center"> </p>
+						</div>
+						<strong>VS</strong>
+						<div class="der"> 
+							<br>
+							<p align="center">Jamaica</p>
+							<img src="<?= base_url(); ?>img/paises/jamaica.png" width=100 alt="Jamaica"> 
+							<br>
+							<br>
+							<p align="center"> </p>
+						</div>  
+
+						<br>
+						<br>
+
+					</div>
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="card">
+
+					<div class="card-block">
+						<div class="izq">
+							<br>
+							<p align="center"> México</p>
+							<img src="<?= base_url();?>img/paises/mexico.jpg" width=100 alt="Mexico">
+							<br>
+							<br>
+							<p align="center"> </p>
+						</div>
+						<strong>VS</strong>
+						<div class="der"> 
+							<br>
+							<p align="center">El Salvador</p>
+							<img src="<?= base_url(); ?>img/paises/salvador.png" width=100 alt="Salvador"> 
+							<br>
+							<br>
+							<p align="center">  </p>
+						</div>  
+
+						<br>
+						<br>
+
+					</div>
+				</div>
+			</div>
 
 
 		</div>
