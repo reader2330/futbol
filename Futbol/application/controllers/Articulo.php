@@ -31,6 +31,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function juventus_cancela(){
+		$data['titulo'] = "Juventus cancela partido frente a Monterrey y Tigres.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/juventus-cancela');
+		$this->load->view('futbol/footer');
+	} 
+
 
 
 
