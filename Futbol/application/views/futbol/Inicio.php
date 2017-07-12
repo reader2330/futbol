@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br>
 				<br>
 				<center class="centrar">
-					<a href="<? base_url(); ?>Categorias/CopaOro" class="btn btn-primary" id="inicio" style="margin-left:55px">Leer más</a>
+					<a href="<? base_url(); ?>Categorias/CopaOro" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
 				</center>
 			</div>
 			<div class="resultado">
@@ -190,19 +190,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="izq">
 							<br>
 							<p align="center">Curazao</p>
-							<img src="<?= base_url();?>img/paises/curazao.png" width=100 alt="Curazao">
+							<img src="<?= base_url();?>img/paises/curazao.png" width=80 alt="Curazao">
 							<br>
 							<br>
-							<p align="center"> </p>
+							
+							<p align="center">0</p>
 						</div>
 						<strong>VS</strong>
 						<div class="der"> 
 							<br>
 							<p align="center">Jamaica</p>
-							<img src="<?= base_url(); ?>img/paises/jamaica.png" width=100 alt="Jamaica"> 
+							<img src="<?= base_url(); ?>img/paises/jamaica.png" width=90 alt="Jamaica"> 
 							<br>
 							<br>
-							<p align="center"> </p>
+							<p align="center">2</p>
 						</div>  
 
 						<br>
@@ -216,21 +217,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<div class="card-block">
 						<div class="izq">
-							<br>
+							 
 							<p align="center"> México</p>
 							<img src="<?= base_url();?>img/paises/mexico.jpg" width=100 alt="Mexico">
 							<br>
 							<br>
-							<p align="center"> </p>
+							<p align="center">3</p>
 						</div>
 						<strong>VS</strong>
 						<div class="der"> 
-							<br>
+							
 							<p align="center">El Salvador</p>
 							<img src="<?= base_url(); ?>img/paises/salvador.png" width=100 alt="Salvador"> 
 							<br>
 							<br>
-							<p align="center">  </p>
+						
+							<p align="center">1</p>
 						</div>  
 
 						<br>

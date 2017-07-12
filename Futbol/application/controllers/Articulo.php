@@ -11,7 +11,7 @@ class Articulo extends CI_Controller {
 
 
 	public function index(){
-		$data['titulo'] = "Articulo";
+		$data['titulo'] = "Osorio dirige su primera practica frente al reto de la Copa Oro.";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/articulo');
 		$this->load->view('futbol/footer');
@@ -34,7 +34,7 @@ class Articulo extends CI_Controller {
 	public function juventus_cancela(){
 		$data['titulo'] = "Juventus cancela partido frente a Monterrey y Tigres.";
 		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/juventus-cancela');
+		$this->load->view('futbol/juventus_cancela');
 		$this->load->view('futbol/footer');
 	} 
 

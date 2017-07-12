@@ -35,25 +35,25 @@
 		<div class="collapse navbar-collapse" id="bd-main-nav">
 			<ul class="nav navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-item nav-link active" href="<?= base_url(); ?>inicio">Patada Inicial</a>
+					<a class="nav-item nav-link active" href="#">Patada Inicial</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?= base_url(); ?>categorias" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/LigaMX">Liga MX</a>
-						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/LigaEspanola">Liga Española</a>
-						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/LigaInglesa">Liga Inglesa</a>
-						<a class="dropdown-item" href="<?= base_url(); ?>Categorias/CopaOro">Copa Oro</a>
+						<a class="dropdown-item" href="#">Liga MX</a>
+						<a class="dropdown-item" href="#">Liga Española</a>
+						<a class="dropdown-item" href="#">Liga Inglesa</a>
+						<a class="dropdown-item" href="#">Copa Oro</a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-item nav-link " href="<?= base_url(); ?>galeria">Galeria</a>
+					<a class="nav-item nav-link " href="#">Galeria</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-item nav-link " href="<?= base_url(); ?>">Tablas</a>
+					<a class="nav-item nav-link " href="#">Tablas</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-item nav-link " href="<?= base_url(); ?>">Contactanos</a>
+					<a class="nav-item nav-link " href="#">Contactanos</a>
 				</li>
 
 			</ul>
