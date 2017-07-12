@@ -38,6 +38,20 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function articuloChivas(){
+		$data['titulo'] = "Chivas apuesta por mas canteranos para el siguiente torneo.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articuloChivas');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function articuloJugadoresSancionados(){
+		$data['titulo'] = "Te recordamos los jugadores sancionados para el arranque del torneo apertura 2017.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articuloJugadoresSancionados');
+		$this->load->view('futbol/footer');
+	} 
+
 
 
 
