@@ -24,6 +24,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function articulo3(){
+		$data['titulo'] = "James Rodríguez, refuerzo de lujo del Bayern Munich.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo3');
+		$this->load->view('futbol/footer');
+	} 
+
 
 
 
