@@ -67,8 +67,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				Tras 20 minutos de trabajo con su Preparador Físico, Jorge Ríos, los mexicanos trabajaron bajo las órdenes de su timonel Juan Carlos Osorio, quien sólo espera la llegada de Erick Torres para tener a su equipo completo.
 				Seré este jueves, por la mañana, cuando el delantero del Houston Dynamo arribe a San Diego.
 
-				Seré este jueves, por la mañana, cuando el delantero del Houston Dynamo arribe a San Diego.
-
 
 			</p>
 

@@ -15,9 +15,14 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/articulo');
 		$this->load->view('futbol/footer');
-
-
 	}
+
+	public function articulo2(){
+		$data['titulo'] = "Nuevo Integrante del Real Madrid";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo2');
+		$this->load->view('futbol/footer');
+	} 
 
 
 
