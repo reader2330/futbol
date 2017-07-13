@@ -38,6 +38,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function tecatito_rompe(){
+		$data['titulo'] = "Rompe silecio Tecatito.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/tecatito_rompe');
+		$this->load->view('futbol/footer');
+	} 
+
 
 
 
