@@ -53,18 +53,46 @@ class Articulo extends CI_Controller {
 	} 
 
 	public function tecatito_rompe(){
-		$data['titulo'] = "Rompe silecio Tecatito.";
+		$data['titulo'] = "Rompe silencio Tecatito.";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/tecatito_rompe');
 		$this->load->view('futbol/footer');
 	} 
 
+<<<<<<< HEAD
 	public function duenias(){
 		$data['titulo'] ="'No jugamos para darle gusto a la gente': Jesús Dueñas";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/duenias');
 		$this->load->view('futbol/footer');
 	} 
+=======
+	public function grito(){
+		$data['titulo'] = "Afición del Tri en Denver se manifiesta para erradicar el 'eh p...'";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/grito');
+		$this->load->view('futbol/footer');
+	}
+
+	public function chivas_playera(){
+		$data['titulo'] = "Chivas presume la 12 en flamante jersey para Apertura 2017";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/chivas_playera');
+		$this->load->view('futbol/footer');
+	}
+
+	
+
+	public function Amenaza_bomba(){
+		$data['titulo'] = "Amenaza de bomba en UCLA da susto al Real Madrid";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/amenaza');
+		$this->load->view('futbol/footer');
+	}
+
+
+
+>>>>>>> a2f05a77d8a887e5679665bc7d2725dd74902874
 
 	public function ochoa(){
 		$data['titulo'] ="'La gente en México cree que es fácil estar en Europa': Ochoa";
