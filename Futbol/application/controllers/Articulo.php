@@ -59,8 +59,26 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function duenias(){
+		$data['titulo'] ="'No jugamos para darle gusto a la gente': Jesús Dueñas";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/duenias');
+		$this->load->view('futbol/footer');
+	} 
 
+	public function ochoa(){
+		$data['titulo'] ="'La gente en México cree que es fácil estar en Europa': Ochoa";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/ochoa');
+		$this->load->view('futbol/footer');
+	} 
 
+	public function zlatan(){
+		$data['titulo'] ="Zlatan estaría cerca de aceptar una oferta del Galaxy";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/zlatan');
+		$this->load->view('futbol/footer');
+	}
 
 }
 
