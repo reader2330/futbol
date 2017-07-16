@@ -1,0 +1,30 @@
+@media only screen and (max-width: 400px){
+
+	.resultados{
+		height: 1400px;
+	}
+	.noticias{
+		flex-wrap: wrap;
+		height: 1200px;
+	}
+
+	.time{
+		flex-wrap: wrap;
+		height: 800px;
+
+	}
+
+	.fb{
+		flex: 1 1 100%;
+	}
+
+	.tw{
+		flex: 1 1 100%;
+	}
+
+	#card{
+		height: 500px;
+		
+	}
+}
+

@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<link rel="stylesheet" type="text/css" href="<? base_url() ?>assets/css/botones5.css">
 	<link rel="stylesheet" type="text/css" href="<? base_url() ?>assets/css/estilos6.css">
-	<link rel="stylesheet" type="text/css" href="<? base_url() ?>assets/css/inicior6.css">
+	<link rel="stylesheet" type="text/css" href="<? base_url() ?>assets/css/inicior5.css">
 
 
 
@@ -294,6 +294,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 					</div>
+					<br>
+					<br>
+					<br>
 
 					<div class="noticia">
 						<div class="card" id="card">
@@ -318,6 +321,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br>
 			<br>
 			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
 				<h2 align="center">Nuestras publicaciones en las Redes Sociales</h2>
 
 				<div class="time">
