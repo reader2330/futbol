@@ -59,14 +59,14 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
-<<<<<<< HEAD
+
 	public function duenias(){
 		$data['titulo'] ="'No jugamos para darle gusto a la gente': Jesús Dueñas";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/duenias');
 		$this->load->view('futbol/footer');
 	} 
-=======
+
 	public function grito(){
 		$data['titulo'] = "Afición del Tri en Denver se manifiesta para erradicar el 'eh p...'";
 		$this->load->view('futbol/header',$data);
@@ -92,7 +92,6 @@ class Articulo extends CI_Controller {
 
 
 
->>>>>>> a2f05a77d8a887e5679665bc7d2725dd74902874
 
 	public function ochoa(){
 		$data['titulo'] ="'La gente en México cree que es fácil estar en Europa': Ochoa";
@@ -107,6 +106,36 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/zlatan');
 		$this->load->view('futbol/footer');
 	}
+
+	public function moreno(){
+		$data['titulo'] ="Moreno arriba a Roma y se pone la '15' de La Loba ";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/moreno');
+		$this->load->view('futbol/footer');
+	}
+
+	public function america(){
+		$data['titulo'] ="	
+		América, 'rejuvenecido' para el Apertura 2017";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/america');
+		$this->load->view('futbol/footer');
+	}
+	public function ajax(){
+		$data['titulo'] ="Aficionados abarrotan las calles en apoyo a juvenil del Ajax";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/ajax');
+		$this->load->view('futbol/footer');
+	}
+	public function disculpa(){
+		$data['titulo'] ="Dueñas se disculpa con afición mexicana";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/disculpa');
+		$this->load->view('futbol/footer');
+	}
+
+
+
 
 }
 

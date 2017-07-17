@@ -4,6 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/articulo12.css">
+<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/articulor6.css">
+
 
 <div class="container">
 	
@@ -17,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/Dueñas/dueñas.jpg" align="center" alt="México vs Jamaica">
+		<img src="<?= base_url() ?>img/Duenas/duenas.jpg" align="center" alt="México vs Jamaica">
 	</div>
 	<br>
 	<br>
@@ -53,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<br>
 			<br>		
-			<img src="<?= base_url() ?>img/Dueñas/dueñas2.jpg" align="center" alt="México vs Jamaica">
+			<img src="<?= base_url() ?>img/Duenas/duenas2.jpg" align="center" alt="México vs Jamaica">
 			<br>
 			<br>
 			<p>
