@@ -141,6 +141,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function chicharito(){
+		$data['titulo'] ="West Ham estaría dispuesto a pagar cláusula por Chicharito";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/chicharito');
+		$this->load->view('futbol/footer');
+	} 
+
 
 
 
