@@ -134,6 +134,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Lozano(){
+		$data['titulo'] ="Chuky Lozano reporta con PSV para la pre-temporada";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Lozano');
+		$this->load->view('futbol/footer');
+	} 
+
 
 
 
