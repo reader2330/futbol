@@ -115,8 +115,7 @@ class Articulo extends CI_Controller {
 	}
 
 	public function america(){
-		$data['titulo'] ="	
-		América, 'rejuvenecido' para el Apertura 2017";
+		$data['titulo'] ="	América, 'rejuvenecido' para el Apertura 2017";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/america');
 		$this->load->view('futbol/footer');
@@ -134,19 +133,29 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
-	public function Lozano(){
-		$data['titulo'] ="Chuky Lozano reporta con PSV para la pre-temporada";
+	public function directivos(){
+		$data['titulo'] ="Directivos de Liga MX le dicen no a Osorio para reforzar al Tri";
 		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Lozano');
+		$this->load->view('futbol/directivos');
 		$this->load->view('futbol/footer');
-	} 
 
-	public function chicharito(){
-		$data['titulo'] ="West Ham estaría dispuesto a pagar cláusula por Chicharito";
+	}
+
+	public function neymar(){
+		$data['titulo'] ="Neymar dejaría al Bacelona para ser protagonista del PSG";
 		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/chicharito');
+		$this->load->view('futbol/neymar');
 		$this->load->view('futbol/footer');
-	} 
+
+	}
+
+	public function rayados(){
+		$data['titulo'] ="Rayados hace oficial salida de Cardona a Boca Juniors";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/rayados');
+		$this->load->view('futbol/footer');
+
+	}
 
 
 

@@ -1,7 +1,10 @@
+                
                 <br>
                 <br>
-                <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/footer2.css">
+                <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/footer3.css">
+                <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/foteerr6.css">
 
+               <div class="pie">
                 <footer class="footer">
                       <div class="container">
                              <span>Siguenos en nuestras redes sociales</span>
@@ -21,7 +24,7 @@
 
 
                                   </footer>
-
+                                  </div>
                                   <script src="http://code.jquery.com/jquery.js"></script> 
                                   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
                                   <script src="<?= base_url();?>assets/js/bootstrap.js"></script>

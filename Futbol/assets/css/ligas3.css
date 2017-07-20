@@ -1,46 +1,67 @@
+
+a{
+	color: black;
+}
+a:hover{
+	color: gray;
+}
 .titulo{
 
 	font-size: 70px;
+}
+
+.equipos{
+
+	width: 40px;
+	height: 40px;
+	background:blue;
+}
+
+.equipos img{
+
+	background-size: contain;
 }
 
 h6{
 	color: white;
 }
 
+
+
+#tabla{
+
+	border-color: black;
+}
+
 .container{
 	display: flex;
 	height: 100%;
+	width: 100%;
 	
 }
 	
-	.slide{
-		flex: 0 1 60%;
-		background:black;
-		height: 200px;
-	}
+	
 
 	.ladoizquierdo{
-		flex:0 1 60%;
-		background: blue;
+		flex:0 1 50%;
 		display: flex;
-		height: 1200px;
+		height: 100%;
 		flex-wrap: wrap;
 	}
 
-		.fb{
-			flex: 0 1 50%;
-			background: red;
-			height: 100px;
-			margin-left:120px;
-		}
+		
 
 		.resultados{
 			flex: 0 1 100%;
-			background: green;
-			height: 300px;
+			border: 2px inside black;
+			height: 40%;
 			display: flex;
 			flex-wrap: wrap;
 
+		}
+
+		.resultados h6{
+			color: black;
 		}
 
 		.anot{
@@ -48,59 +69,66 @@ h6{
 			margin-top: 10px;
 		}
 			.resultado{
-				flex: 0 1 30%;
-				height: 100px;
-				background: black;
+				flex: 0 1 25%;
+				height: 100%;
+				border: 1px solid black;
+				color: black;
 				display: flex;
 				margin-top: 20px;
-				margin-left: 10px;
+				margin-left: 5px;
 				margin-right: 5px;
 			}
 
 				.izq{
-					flex : 0 1 50%;
+					flex : 0 1 40%;
+					color: black;
 					margin-left: 10px;
 					margin-top: 10px;
 
 				}
 
 				.der{
-					flex: 0 1 50%;
+					flex: 0 1 40%;
 					margin-left: 10px;
 					margin-top: 10px;
 				}
 
 		.noticias{
 			flex: 0 1 100%;
-			background: violet;
-			height: 300px;
+			height: 60%;
 			display: flex;
 			flex-wrap: wrap;
 		}
 			.noticia{
-				flex: 0 1 30%;
-				height: 270px;
+				flex: 0 1 100%;
+				height: 80%;
 				margin-top: 20px;
-				background: black;
+				
 			}
 
 
 	.ladoderecho{
-		flex: 0 1 40%;
+		flex: 0 1 30%;
 		display: flex;
-		height: 1200px;
-		background: red;
+		height: 100%;
+		
 		flex-wrap: wrap;
 	}
 
 		.puntos{
-			flex: 1 1 100%;
-
-			background: orange;
+			flex: 0 1 100%;
+			height: 60%
+			
 
 		}
 
 		.goles{
-			flex: 1 1 100%;
-			background: gray;
+			flex: 0 1 100%;
+			height: 40%;
+			
 		}
+
+			.goles table{
+				width: 100%;
+				height: 50%;
+			}
