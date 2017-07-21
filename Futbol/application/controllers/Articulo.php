@@ -156,7 +156,29 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 
 	}
+	public function prensa(){
+		$data['titulo'] ="Prensa hondureña se burla de Osorio previo a juego vs. México";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/prensa');
+		$this->load->view('futbol/footer');
 
+	}
+	public function madrid(){
+		$data['titulo'] ="Real Madrid y Chelsea llegan a acuerdo por Morata";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/madrid');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function mexicanos(){
+		$data['titulo'] ="'Mexicanos con confianza son potencia mundial': Almeyda";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/mexicanos');
+		$this->load->view('futbol/footer');
+
+
+	}
 
 
 
