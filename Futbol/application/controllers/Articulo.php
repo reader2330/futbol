@@ -183,7 +183,7 @@ class Articulo extends CI_Controller {
 	public function Osorio_afirmaquecontinuidad_mundial(){
 		$data['titulo'] ="El técnico de la Selección afirmó que están trabajando para alcanzar el primer objetivo, que es llegar a Rusia 2018";
 		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/mexicanos');
+		$this->load->view('futbol/Osorio_afirmaquecontinuidad_mundial');
 		$this->load->view('futbol/footer');
 
 
@@ -192,7 +192,7 @@ class Articulo extends CI_Controller {
 	public function Neymar_Paris(){
 		$data['titulo'] ="'Neymar le dice que sí a París': Afirman en Francia";
 		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/mexicanos');
+		$this->load->view('futbol/Neymar_Paris');
 		$this->load->view('futbol/footer');
 
 
@@ -201,7 +201,7 @@ class Articulo extends CI_Controller {
 	public function James_narcotrafico(){
 		$data['titulo'] ="James Rodríguez y la historia que lo liga al narcotráfico";
 		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/mexicanos');
+		$this->load->view('futbol/James_narcotrafico');
 		$this->load->view('futbol/footer');
 
 
