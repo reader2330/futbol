@@ -180,7 +180,7 @@ class Articulo extends CI_Controller {
 
 	}
 
-	public function Osorio_afirma que continuidad_mundial(){
+	public function Osorio_afirmaquecontinuidad_mundial(){
 		$data['titulo'] ="El técnico de la Selección afirmó que están trabajando para alcanzar el primer objetivo, que es llegar a Rusia 2018";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/mexicanos');
