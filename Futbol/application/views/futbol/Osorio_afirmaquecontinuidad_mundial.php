@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/articulo12.css">
+<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/articulor6.css">
 
 <div class="container">
 	
