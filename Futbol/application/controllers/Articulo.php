@@ -207,6 +207,17 @@ class Articulo extends CI_Controller {
 
 	}
 
+	public function NicoCastillo_Gol(){
+		$data['titulo'] ="Golazo de Castillo ilumina a Pumas";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/NicoCastillo_Gol');
+		$this->load->view('futbol/footer');
+
+
+	}
+
+
+
 }
 
 ?>
