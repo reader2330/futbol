@@ -18,7 +18,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/Pumas/Nico.png" align="center" alt="Neymar PSG">
+		
+		<img src="<?= base_url() ?>img/pumas/Nico.png" align="center" alt="Pumas Nicolas Castillo GOl">
 	</div>
 	<br>
 	<br>
@@ -82,6 +83,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 			<br>
 			<br>
+			<h3>Te dejamos con el GOLAZO de Castillo</h3>
+			<video src="<?= base_url() ?>img/pumas/GolNico.mp4" width="640" height="360" controls autoplay preload></video>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			
 			
 
 			
