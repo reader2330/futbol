@@ -225,7 +225,14 @@ class Articulo extends CI_Controller {
 
 	}
 
+	public function EU_Finalista_CopaOro(){
+		$data['titulo'] ="Estados Unidos está a la espera del rival que pueda competirle mano a mano";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/EU_Finalista_CopaOro');
+		$this->load->view('futbol/footer');
 
+
+	}
 
 
 }
