@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/Pumas/NicoCastillo1.png" align="center" alt="Neymar PSG">
+		<img src="<?= base_url() ?>img/Pumas/Nico.png" align="center" alt="Neymar PSG">
 	</div>
 	<br>
 	<br>
@@ -79,10 +79,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<p>
 				Para lo que no hubo minutos fue para el empate de los Tuzos que, algo mermado por las bajas, tendrán que esperar para obtener su primera victoria. En la próxima jornada los dirigidos por Francisco Palencia se medirán contra el Atlas; mientras que los Tuzos recibirán en casa al América. 
 			</p>
-			<h1>Te dejamos el video del GOLAZO de Nicolás Castillo</h1>
+			
 			<br>
 			<br>
-			<embed width="400" height="300" src="<?= base_url() ?>img/Pumas/GolNico.mp4">
+			
 
 			
 				
