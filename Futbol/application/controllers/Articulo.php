@@ -216,6 +216,16 @@ class Articulo extends CI_Controller {
 
 	}
 
+	public function Mexico_Obligacion_Concacaf(){
+		$data['titulo'] ="El Tri buscará el pase a la Final de Copa Oro";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mexico_Obligacion_Concacaf');
+		$this->load->view('futbol/footer');
+
+
+	}
+
+
 
 
 }
