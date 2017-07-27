@@ -234,6 +234,13 @@ class Articulo extends CI_Controller {
 
 	}
 
+	public function chicharito_canto(){
+		$data['titulo'] ="Chicharito ya tiene cántico hammer al estilo 'La Bamba'";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/chicharito_canto');
+		$this->load->view('futbol/footer');
+	} 
+
 
 }
 
