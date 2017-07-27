@@ -241,6 +241,20 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	} 
 
+	public function Bayern_Grande(){
+		$data['titulo'] ="'Bayer es tan grande como el Real Madrid o incluso más: James'";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Bayern_Grande');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function Monaco(){
+		$data['titulo'] ="Mónaco desmiente acuerdo con el Real Madrid por Mbappé";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Monaco');
+		$this->load->view('futbol/footer');
+	}
+
 
 }
 
