@@ -17,7 +17,7 @@ h3{
 
 .noticia{
 	flex: 0 1 33%;
-	height: 200px;
+	height: 300px;
 
 }
 
@@ -30,7 +30,7 @@ h1{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: flex-start;
-	height: 600px;
+	height: 900px;
 }
 .texto{
 
@@ -39,14 +39,14 @@ h1{
 }
 .resultado{
 	flex: 0 1 33%;
-	height: 120px;
+	height: 200px;
 
 }
 	.resulatado p{
 		font-size: 25px;
 	}
 .card{
-	height: 170px;
+	height: 200px;
 	width: 300px;
 	border: 3px outside black;
 }
@@ -54,7 +54,7 @@ h1{
 .card-block{
 
 	display: flex;
-	height: 200px;
+	height: 250px;
 	justify-content: space-between;
 	align-items: center;
 
@@ -87,16 +87,18 @@ h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 400px;
+	height: 1100px;
 	
 }
 	.fb{
 		flex: 0 1 45%;
 		margin-right: 30px;
+		margin-bottom: 500px;
 
 	}
 
 	.tw{
+
 		flex: 0 1 45%;
 		
 

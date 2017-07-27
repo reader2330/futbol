@@ -30,14 +30,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 					<img  class="img-fluid" src="<?= base_url();?>img/MX/morelia.png" width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Monterrey</h6>
 					<img  class="img-fluid" src="<?= base_url();?>img/MX/monterrey.png" width="50"  alt="monterrey">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">0</h6>
 
 				</div>
 			</div>
@@ -47,14 +47,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 					<img class="img-fluid" src="<?= base_url(); ?>img/MX/tijuana.png" width="50"  alt="tijuana" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Cruz Azul</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/cruz.png" width="50"  alt="cruz">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">2</h6>
 
 				</div>
 			</div>
@@ -64,14 +64,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 					<img class="img-fluid" src="<?= base_url(); ?>img/MX/lobos.png" width="60"  alt="lobos" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">2</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Santos</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/santos.png" width="50"  alt="santos">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">2</h6>
 
 				</div>
 			</div>
@@ -79,16 +79,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="izq">
 					<h6>Tigres</h6>
 					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/tigres.png" width="35"  alt="tigres" >
+					<img class="img-fluid" src="<?= base_url(); ?>img/MX/tigres.png" width="50"  alt="tigres" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">5</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Puebla</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/puebla.png" width="50"  alt="puebla">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">0</h6>
 
 				</div>
 			</div>
@@ -96,16 +96,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="izq">
 					<h6>Leon</h6>
 					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/leon.png" width="35"  alt="leon" >
+					<img class="img-fluid" src="<?= base_url(); ?>img/MX/leon.png" width="50"  alt="leon" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Atlas</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/atlas.png" width="50"  alt="atlas">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">3</h6>
 
 				</div>
 			</div>
@@ -115,14 +115,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 					<img class="img-fluid" src="<?= base_url(); ?>img/MX/america.png" width="50"  alt="america" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Queretaro</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/queretaro.png" width="50"  alt="queretaro">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">1</h6>
 
 				</div>
 			</div>
@@ -132,14 +132,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 					<img class="img-fluid" src="<?= base_url(); ?>img/MX/chivas2.png" width="50"  alt="chivas" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Toluca</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/toluca.png" width="50"  alt="toluca">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">0</h6>
 
 				</div>
 			</div>
@@ -149,31 +149,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					
 					<img class="img-fluid" src="<?= base_url(); ?>img/MX/pumas2.png" width="50"  alt="pumas" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">1</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Pachuca</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/pachuca2.png" width="50"  alt="pachuca">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">0</h6>
 
 				</div>
 			</div>
 			<div class="resultado">
-				<div class="izq">
+				<div class="izq" style="margin-left: 100px">
 					<h6>Veracruz</h6>
 					
 					<img  class="img-fluid" src="<?= base_url(); ?>img/MX/veracruz.png" width="50"  alt="veracruz" >
 					<br>
-					<h6 class="anot"></h6>	
+					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
 					<h6>Necaxa</h6>
 					<img class="img-fluid" src="<?= base_url();?>img/MX/necaxa.png" width="50"  alt="necaxa">
 					<br>
-					<h6 class="anot"></h6>
+					<h6 class="anot">2</h6>
 
 				</div>
 			</div>
@@ -242,11 +242,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		</div>
 	</div>
+
+
 	<div class="ladoderecho">
 		
 		<div class="puntos">
 			<h3 align="center">Jornada 1</h3>
-			<table  style="margin-left: 20px; width: 100%;" class="table table-hover table-responsive table-bordered " id="tabla" align="c">
+			<table  style="margin-left: 80px; width: 100%; height: 50%;" class="table table-hover table-responsive table-bordered " id="tabla" align="center">
 				<tr>
 					<br>
 					<th align="center">
@@ -396,7 +398,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<div class="goles">
 			
-			<table class="table table-responsive table-striped table-condensed" width="100%" style="">
+			<table class="table table-responsive table-striped table-condensed" width="90%" style="margin-left: 30px;">
 				<thead class="thead-inverse">
 					<tr>
 						<th>PS</th>

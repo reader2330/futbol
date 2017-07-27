@@ -48,9 +48,9 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?= base_url(); ?>categorias" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Liga MX</a>
-							<a class="dropdown-item" href="#">Liga Española</a>
-							<a class="dropdown-item" href="#">Liga Inglesa</a>
+							<a class="dropdown-item" href="<?= base_url(); ?>categorias/LigaMX">Liga MX</a>
+							<a class="dropdown-item" href="<?= base_url(); ?>categorias/LigaEspanola">Liga Santander</a>
+							<a class="dropdown-item" href="<?= base_url(); ?>categorias/LigaInglesa">Premier League</a>
 							<a class="dropdown-item" href="#">Copa Oro</a>
 						</div>
 					</li>
@@ -67,4 +67,5 @@
 				</ul>
 			</div>
 		</nav>
+		</div>
 		

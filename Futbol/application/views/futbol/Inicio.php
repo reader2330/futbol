@@ -61,11 +61,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 				<div class="texto">
-					<h2 align="center">Copa ORO 2017</h2>
+					<h2 align="center">Liga MX</h2>
 					<br>
 					<br>
 					<center class="centrar">
-						<a href="<? base_url(); ?>Categorias/CopaOro" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
+						<a href="<? base_url(); ?>Categorias/LigaMX" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
 					</center>
 				</div>
 				<div class="resultado">
@@ -76,37 +76,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="card-block">
 							<div class="izq">
 								<br>
-								<p align="center"> Guayana </p>
-								<img src="<?= base_url();?>img/paises/guayana.png" width=100 alt="guayana">
-								<br>
-								<br>
-								<p align="center"> 2</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-								<br>
-								<p align="center">Canada</p>
-								<img src="<?= base_url(); ?>img/paises/canada.png" width=120 alt="canada"> 
-								<br>
-								<br>
-								<p align="center">4</p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-
-				</div>
-				<div class="resultado">
-					<div class="card">
-
-						<div class="card-block">
-							<div class="izq">
-								<br>
-								<p align="center"> Honduras </p>
-								<img src="<?= base_url();?>img/paises/honduras.png" width=100 alt="honduras">
+								<p align="center"> Veracruz </p>
+								<img src="<?= base_url();?>img/MX/veracruz.png" width=100 alt="guayana">
 								<br>
 								<br>
 								<p align="center"> 0</p>
@@ -114,11 +85,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<strong>VS</strong>
 							<div class="der"> 
 								<br>
-								<p align="center">Costa Rica</p>
-								<img src="<?= base_url(); ?>img/paises/costarica.png" width=100 alt="costarica"> 
+								<p align="center">Necaxa</p>
+								<img src="<?= base_url(); ?>img/MX/necaxa.png" width=120 alt="canada"> 
 								<br>
-								<br>
-								<p align="center"> 1 </p>
+								
+								<p align="center">2</p>
 							</div>  
 
 							<br>
@@ -126,6 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 						</div>
 					</div>
+
 				</div>
 				<div class="resultado">
 					<div class="card">
@@ -133,8 +105,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="card-block">
 							<div class="izq">
 								<br>
-								<p align="center"> USA </p>
-								<img src="<?= base_url();?>img/paises/usa.png" width=100 alt="USA">
+								<p align="center"> Pumas </p>
+								<img src="<?= base_url();?>img/MX/pumas2.png" width=100 alt="honduras">
 								<br>
 								<br>
 								<p align="center"> 1</p>
@@ -142,38 +114,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<strong>VS</strong>
 							<div class="der"> 
 								<br>
-								<p align="center">Panama</p>
-								<img src="<?= base_url(); ?>img/paises/panama.png" width=100 alt="Panama"> 
-								<br>
-								<br>
-								<p align="center"> 1 </p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-				</div>
-				<div class="resultado">
-					<div class="card">
-
-						<div class="card-block">
-							<div class="izq">
-
-								<p align="center">Martinica</p>
-								<img src="<?= base_url();?>img/paises/martinica.png" width=80 alt="Martinica">
-
-
-								<p align="center"> 2</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-
-								<p align="center">Nicaragua</p>
-
-
-								<img src="<?= base_url(); ?>img/paises/nicaragua.png" width=100 alt="nicaragua"> 
+								<p align="center">Pachuca</p>
+								<img src="<?= base_url(); ?>img/MX/pachuca2.png" width=100 alt="costarica"> 
 								<br>
 								<br>
 								<p align="center"> 0 </p>
@@ -191,21 +133,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="card-block">
 							<div class="izq">
 								<br>
-								<p align="center">Curazao</p>
-								<img src="<?= base_url();?>img/paises/curazao.png" width=80 alt="Curazao">
+								<p align="center"> Chivas </p>
+								<img src="<?= base_url();?>img/MX/chivas2.png" width=100 alt="USA">
 								<br>
 								<br>
-
-								<p align="center">0</p>
+								<p align="center"> 0</p>
 							</div>
 							<strong>VS</strong>
 							<div class="der"> 
 								<br>
-								<p align="center">Jamaica</p>
-								<img src="<?= base_url(); ?>img/paises/jamaica.png" width=90 alt="Jamaica"> 
+								<p align="center">Toluca</p>
+								<img src="<?= base_url(); ?>img/MX/toluca.png" width=100 alt="Panama"> 
 								<br>
 								<br>
-								<p align="center">2</p>
+								<p align="center"> 0 </p>
 							</div>  
 
 							<br>
@@ -220,21 +161,170 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="card-block">
 							<div class="izq">
 
-								<p align="center"> México</p>
-								<img src="<?= base_url();?>img/paises/mexico.jpg" width=100 alt="Mexico">
-								<br>
-								<br>
-								<p align="center">3</p>
+								<p align="center">Leon</p>
+								<img src="<?= base_url();?>img/MX/leon.png" width=80 alt="Martinica">
+
+
+								<p align="center"> 0</p>
 							</div>
 							<strong>VS</strong>
 							<div class="der"> 
 
-								<p align="center">El Salvador</p>
-								<img src="<?= base_url(); ?>img/paises/salvador.png" width=100 alt="Salvador"> 
+								<p align="center">Atlas</p>
+
+
+								<img src="<?= base_url(); ?>img/MX/atlas.png" width=100 alt="nicaragua"> 
+								<br>
+								
+								<p align="center"> 3 </p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+								<br>
+								<p align="center">Tigres</p>
+								<img src="<?= base_url();?>img/MX/tigres.png" width=80 alt="Curazao">
+								<br>
+								<br>
+
+								<p align="center">5</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+								<br>
+								<p align="center">Puebla</p>
+								<img src="<?= base_url(); ?>img/MX/puebla.png" width=90 alt="Jamaica"> 
+								<br>
+								<br>
+								<p align="center">0</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+
+								<p align="center"> America</p>
+								<img src="<?= base_url();?>img/MX/america.png" width=100 alt="america">
+								<br>
+								<br>
+								<p align="center">0</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+
+								<p align="center">Querétaro</p>
+								<img src="<?= base_url(); ?>img/MX/queretaro.png" width=100 alt="queretaro"> 
 								<br>
 								<br>
 
 								<p align="center">1</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+
+								<p align="center"> Lobos</p>
+								<img src="<?= base_url();?>img/MX/lobos.png" width=100 alt="lobos">
+								<br>
+								<br>
+								<p align="center">2</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+
+								<p align="center">Santos</p>
+								<img src="<?= base_url(); ?>img/MX/santos.png" width=100 alt="queretaro"> 
+								<br>
+								<br>
+
+								<p align="center">2</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+
+								<p align="center"> Tijuana</p>
+								<img src="<?= base_url();?>img/MX/tijuana.png" width=100 alt="tijuana">
+								<br>
+								<br>
+								<p align="center">0</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+
+								<p align="center">Cruz Azul</p>
+								<img src="<?= base_url(); ?>img/MX/cruz.png" width=100 alt="cruz azul"> 
+								<br>
+								<br>
+
+								<p align="center">2</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+
+								<p align="center"> Morelia</p>
+								<img src="<?= base_url();?>img/MX/morelia.png" width=100 alt="morelia">
+								<br>
+								<br>
+								<p align="center">0</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+
+								<p align="center">Monterrey</p>
+								<img src="<?= base_url(); ?>img/MX/monterrey.png" width=100 alt="monterrey"> 
+								<br>
+								<br>
+
+								<p align="center">0</p>
 							</div>  
 
 							<br>
@@ -297,6 +387,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<br>
 					<br>
 					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					
 
 					<div class="noticia">
 						<div class="card" id="card">
@@ -348,7 +446,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				</div>
 
-			</div>
 
 
 
@@ -371,6 +468,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
+
+			</div>
 
 
 
