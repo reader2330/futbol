@@ -297,6 +297,28 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 	
+	public function Jona_America(){
+		$data['titulo'] ="No estuve cerca del América: Jonathan dos Santos";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Jona_America');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Bale_ManU(){
+		$data['titulo'] ="Agente de Bale llama 'ridículo' el posible traspaso al Man Utd";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Bale_ManU');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Estampida_Sudafrica(){
+		$data['titulo'] ="Estampida durante juego en Sudáfrica deja dos muertos";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Estampida_Sudafrica');
+		$this->load->view('futbol/footer');
+	}
+
+
 
 }
 
