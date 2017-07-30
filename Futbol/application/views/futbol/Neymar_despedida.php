@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/Eh_puto/eh.jpg" align="center" alt="Afición Mexicana">
+		<img src="<?= base_url() ?>img/neymar/despedida.jpg" align="center" alt="Neymar Jr">
 	</div>
 	<br>
 	<br>
