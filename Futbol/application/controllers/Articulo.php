@@ -276,6 +276,27 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Chicharito_rechaza(){
+		$data['titulo'] ="Chicharito admite que rechazó ofertas de España e Italia";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Chicharito_rechaza');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Pique_Triunfo(){
+		$data['titulo'] ="Pique da triunfo al Barça sobre el Real Madrid en Miami";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Pique_Triunfo');
+		$this->load->view('futbol/footer');
+	}
+
+	public function America_vs_Pachuca(){
+		$data['titulo'] ="América endereza el vuelo y se impone a Pachuca";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/America_vs_Pachuca');
+		$this->load->view('futbol/footer');
+	}
+	
 
 }
 
