@@ -255,6 +255,27 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function eh_puto(){
+		$data['titulo'] ="'Eh pu...!' retumba en estadios de México pese a advertencias";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/eh_puto');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function Chuky_psv(){
+		$data['titulo'] ="Chuky Lozano se estrena como artillero del PSV";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Chuky_psv');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function Neymar_despedida(){
+		$data['titulo'] ="Neymar se habría 'despedido' de sus amigos del Barca";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_despedida');
+		$this->load->view('futbol/footer');
+	}
+
 
 }
 
