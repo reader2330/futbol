@@ -318,8 +318,21 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Neymar_Traidor(){
+		$data['titulo'] ="Letrero a las afueras del Camp Nou llama traidor a Neymar";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_Traidor');
+		$this->load->view('futbol/footer');
+	}
 
+	public function America_Top(){
+		$data['titulo'] ="América, en el Top 20 mundial de clubes de futbol con más followers";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/America_Top');
+		$this->load->view('futbol/footer');
+	}
 
+	
 }
 
 ?>
