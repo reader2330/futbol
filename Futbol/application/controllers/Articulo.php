@@ -332,7 +332,14 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
-	
+	public function Salcedo_BL(){
+		$data['titulo'] ="Salcedo, parte del once ideal de fichajes en Bundesliga";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Salcedo_BL');
+		$this->load->view('futbol/footer');
+	}
+
+		
 }
 
 ?>
