@@ -49,7 +49,7 @@ class LigaSantander extends CI_Controller {
 	}
 
 	public function ImagenesEquipos(){
-		$base="http://localhost/paginafutbol/Futbol";
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
 		$Imagenes = array
 		(1 =>  $base."/img/LigaSantander/Deportivo_Alaves.png" ,
 			2 =>  $base."/img/LigaSantander/AthleticBilbao.png" ,

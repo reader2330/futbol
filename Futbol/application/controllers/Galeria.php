@@ -33,7 +33,7 @@ class Galeria extends CI_Controller {
 
 	public function Imagenes(){
 
-		$base="http://localhost/paginafutbol/Futbol/";
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
 
 		$Imagenes = array(
 			1 => $base."img/america/cecilio1-1.jpg",
@@ -54,7 +54,7 @@ class Galeria extends CI_Controller {
 	}
 
 	public function Articulos(){
-		$base="http://localhost/paginafutbol/Futbol/";
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
 
 		$Articulos = array(
 			1 => $base."Articulo/America_vs_Pachuca",

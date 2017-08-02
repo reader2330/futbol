@@ -80,8 +80,65 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="card-block">
 							<div class="izq">
 								<br>
-								<p align="center"> Veracruz </p>
-								<img src="<?= base_url();?>img/MX/veracruz.png" width=100 alt="guayana">
+								<p align="center"> <?= $Nombres[11] ?> </p>
+								<img src=<?= $Imagenes[11]?> alt=<?= $Nombres[11] ?> width="80">
+								<br>
+								<br>
+								<p align="center"> 1</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+								<br>
+								<p align="center"> <?= $Nombres[8] ?> </p>
+								<img src=<?= $Imagenes[8]?>  width="100" alt=<?= $Nombres[8] ?> > 
+								<br>
+								
+								<p align="center">1</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+								<br>
+								<p align="center"> <?= $Nombres[2] ?> </p>
+								<img src=<?= $Imagenes[2]?> alt=<?= $Nombres[2] ?> width="80" >
+								<br>
+								<br>
+								<p align="center">2</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+								<br>
+								<p align="center"> <?= $Nombres[12] ?> </p>
+								<img src=<?= $Imagenes[12]?> alt=<?= $Nombres[12] ?>  width="80">
+								<br>
+								<br>
+								<p align="center"> 1 </p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+								<br>
+								<p align="center"> <?= $Nombres[13] ?> </p>
+								<img src=<?= $Imagenes[13]?> alt=<?= $Nombres[13] ?> width="80" >
 								<br>
 								<br>
 								<p align="center"> 0</p>
@@ -89,10 +146,96 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<strong>VS</strong>
 							<div class="der"> 
 								<br>
-								<p align="center">Necaxa</p>
-								<img src="<?= base_url(); ?>img/MX/necaxa.png" width=120 alt="canada"> 
+								<p align="center"> <?= $Nombres[6] ?> </p>
+								<img src=<?= $Imagenes[6]?> alt=<?= $Nombres[6] ?> width="80" >
+								<br>
+								<br>
+								<p align="center"> 4 </p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+
+								<p align="center"> <?= $Nombres[3] ?> </p>
+								<img src=<?= $Imagenes[3]?> alt=<?= $Nombres[3] ?> width="80" >
+
+
+								<p align="center"> 1</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+
+								<p align="center"> <?= $Nombres[4] ?> </p>
+								<img src=<?= $Imagenes[4]?> alt=<?= $Nombres[4] ?> width="80" >
 								<br>
 								
+								<p align="center"> 1</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+								<br>
+								<p align="center"> <?= $Nombres[7] ?> </p>
+								<img src=<?= $Imagenes[7]?> alt=<?= $Nombres[7] ?> width="80">
+								<br>
+								<br>
+
+								<p align="center">1</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+								<br>
+								<p align="center"> <?= $Nombres[18] ?> </p>
+								<img src=<?= $Imagenes[18]?> alt=<?= $Nombres[18] ?> width="80" >
+								<br>
+								<br>
+								<p align="center">0</p>
+							</div>  
+
+							<br>
+							<br>
+
+						</div>
+					</div>
+				</div>
+				<div class="resultado">
+					<div class="card">
+
+						<div class="card-block">
+							<div class="izq">
+
+								<p align="center"> <?= $Nombres[10] ?> </p>
+								<img src=<?= $Imagenes[10]?> alt=<?= $Nombres[10] ?> width="80" >
+								<br>
+								<br>
+								<p align="center">0</p>
+							</div>
+							<strong>VS</strong>
+							<div class="der"> 
+
+								<p align="center"> <?= $Nombres[1] ?> </p>
+								<img src=<?= $Imagenes[1]?> alt=<?= $Nombres[1] ?> width="80" > 
+								<br>
+								<br>
+
 								<p align="center">2</p>
 							</div>  
 
@@ -101,114 +244,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 						</div>
 					</div>
-
 				</div>
-				<div class="resultado">
-					<div class="card">
 
-						<div class="card-block">
-							<div class="izq">
-								<br>
-								<p align="center"> Pumas </p>
-								<img src="<?= base_url();?>img/MX/pumas2.png" width=100 alt="honduras">
-								<br>
-								<br>
-								<p align="center"> 1</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-								<br>
-								<p align="center">Pachuca</p>
-								<img src="<?= base_url(); ?>img/MX/pachuca2.png" width=100 alt="costarica"> 
-								<br>
-								<br>
-								<p align="center"> 0 </p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-				</div>
-				<div class="resultado">
-					<div class="card">
-
-						<div class="card-block">
-							<div class="izq">
-								<br>
-								<p align="center"> Chivas </p>
-								<img src="<?= base_url();?>img/MX/chivas2.png" width=100 alt="USA">
-								<br>
-								<br>
-								<p align="center"> 0</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-								<br>
-								<p align="center">Toluca</p>
-								<img src="<?= base_url(); ?>img/MX/toluca.png" width=100 alt="Panama"> 
-								<br>
-								<br>
-								<p align="center"> 0 </p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-				</div>
 				<div class="resultado">
 					<div class="card">
 
 						<div class="card-block">
 							<div class="izq">
 
-								<p align="center">Leon</p>
-								<img src="<?= base_url();?>img/MX/leon.png" width=80 alt="Martinica">
-
-
-								<p align="center"> 0</p>
+								<p align="center"> <?= $Nombres[9] ?> </p>
+								<img src=<?= $Imagenes[9]?> alt=<?= $Nombres[9] ?> width="80" >
+								<br>
+								<br>
+								<p align="center">1</p>
 							</div>
 							<strong>VS</strong>
 							<div class="der"> 
 
-								<p align="center">Atlas</p>
-
-
-								<img src="<?= base_url(); ?>img/MX/atlas.png" width=100 alt="nicaragua"> 
-								<br>
-								
-								<p align="center"> 3 </p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-				</div>
-				<div class="resultado">
-					<div class="card">
-
-						<div class="card-block">
-							<div class="izq">
-								<br>
-								<p align="center">Tigres</p>
-								<img src="<?= base_url();?>img/MX/tigres.png" width=70 alt="Curazao">
+								<p align="center"> <?= $Nombres[15] ?> </p>
+								<img src=<?= $Imagenes[15]?> alt=<?= $Nombres[15] ?> width="80"> 
 								<br>
 								<br>
 
-								<p align="center">5</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-								<br>
-								<p align="center">Puebla</p>
-								<img src="<?= base_url(); ?>img/MX/puebla.png" width=90 alt="Jamaica"> 
-								<br>
-								<br>
 								<p align="center">0</p>
 							</div>  
 
@@ -218,23 +275,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 					</div>
 				</div>
+
 				<div class="resultado">
 					<div class="card">
 
 						<div class="card-block">
 							<div class="izq">
 
-								<p align="center"> America</p>
-								<img src="<?= base_url();?>img/MX/america.png" width=100 alt="america">
+								<p align="center"> <?= $Nombres[16] ?> </p>
+								<img src=<?= $Imagenes[16]?> alt=<?= $Nombres[16] ?> width="80" >
 								<br>
 								<br>
-								<p align="center">0</p>
+								<p align="center">3</p>
 							</div>
 							<strong>VS</strong>
 							<div class="der"> 
 
-								<p align="center">Querétaro</p>
-								<img src="<?= base_url(); ?>img/MX/queretaro.png" width=80 alt="queretaro"> 
+								<p align="center"> <?= $Nombres[5] ?> </p>
+								<img src=<?= $Imagenes[5]?> alt=<?= $Nombres[5] ?> width="80" >
 								<br>
 								<br>
 
@@ -254,81 +312,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="card-block">
 							<div class="izq">
 
-								<p align="center"> Lobos</p>
-								<img src="<?= base_url();?>img/MX/lobos.png" width=100 alt="lobos">
+								<p align="center"> <?= $Nombres[14] ?> </p>
+								<img src=<?= $Imagenes[14]?> alt=<?= $Nombres[14] ?> width="80" >
 								<br>
 								<br>
-								<p align="center">2</p>
+								<p align="center">1</p>
 							</div>
 							<strong>VS</strong>
 							<div class="der"> 
 
-								<p align="center">Santos</p>
-								<img src="<?= base_url(); ?>img/MX/santos.png" width=80 alt="queretaro"> 
+								<p align="center"> <?= $Nombres[17] ?> </p>
+								<img src=<?= $Imagenes[17]?> alt=<?= $Nombres[17] ?> width="80" >
 								<br>
 								<br>
 
-								<p align="center">2</p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="resultado">
-					<div class="card">
-
-						<div class="card-block">
-							<div class="izq">
-
-								<p align="center"> Tijuana</p>
-								<img src="<?= base_url();?>img/MX/tijuana.png" width=100 alt="tijuana">
-								<br>
-								<br>
-								<p align="center">0</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-
-								<p align="center">Cruz Azul</p>
-								<img src="<?= base_url(); ?>img/MX/cruz.png" width=100 alt="cruz azul"> 
-								<br>
-								<br>
-
-								<p align="center">2</p>
-							</div>  
-
-							<br>
-							<br>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="resultado">
-					<div class="card">
-
-						<div class="card-block">
-							<div class="izq">
-
-								<p align="center"> Morelia</p>
-								<img src="<?= base_url();?>img/MX/morelia.png" width=100 alt="morelia">
-								<br>
-								<br>
-								<p align="center">0</p>
-							</div>
-							<strong>VS</strong>
-							<div class="der"> 
-
-								<p align="center">Monterrey</p>
-								<img src="<?= base_url(); ?>img/MX/monterrey.png" width=80 alt="monterrey"> 
-								<br>
-								<br>
-
-								<p align="center">0</p>
+								<p align="center">1</p>
 							</div>  
 
 							<br>
