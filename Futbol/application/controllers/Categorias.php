@@ -9,14 +9,21 @@ class Categorias extends CI_Controller {
 		$this->load->helper('url');
 	}
 
-	public function LigaMX(){
+	public function Nombresequipos(){
 
-		$data['titulo'] = 'LigaMX';
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/LigaMX');
-		$this->load->view('futbol/footer');
+		 $Nombres = array(
+		  1 => "America",
+		  2 => "Chivas",
 
-	}
+		 
+
+		 );	
+
+		 return $Nombres;
+
+		}
+
+	
 
 	public function LigaEspanola(){
 		

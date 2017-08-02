@@ -26,101 +26,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="resultados">
 			<div class="resultado" >
 				<div class="izq">
-					<h6>Morelia</h6>
+					<h6><? echo $nombres[11]; ?></h6>
 					
-					<img  class="img-fluid" src="<?= base_url();?>img/MX/morelia.png" width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[11]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">0</h6>	
+					<h6 class="anot">1</h6>	
 
 				</div>
 				<div class="der">
-					<h6>Monterrey</h6>
-					<img  class="img-fluid" src="<?= base_url();?>img/MX/monterrey.png" width="50"  alt="monterrey">
-					<br>
-					<h6 class="anot">0</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6>Tijuana</h6>
+					<h6><? echo $nombres[8]; ?></h6>
 					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/tijuana.png" width="50"  alt="tijuana" >
-					<br>
-					<h6 class="anot">0</h6>	
-
-				</div>
-				<div class="der">
-					<h6>Cruz Azul</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/cruz.png" width="50"  alt="cruz">
-					<br>
-					<h6 class="anot">2</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6>Lobos</h6>
-					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/lobos.png" width="60"  alt="lobos" >
-					<br>
-					<h6 class="anot">2</h6>	
-
-				</div>
-				<div class="der">
-					<h6>Santos</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/santos.png" width="50"  alt="santos">
-					<br>
-					<h6 class="anot">2</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6>Tigres</h6>
-					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/tigres.png" width="50"  alt="tigres" >
-					<br>
-					<h6 class="anot">5</h6>	
-
-				</div>
-				<div class="der">
-					<h6>Puebla</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/puebla.png" width="50"  alt="puebla">
-					<br>
-					<h6 class="anot">0</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6>Leon</h6>
-					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/leon.png" width="50"  alt="leon" >
-					<br>
-					<h6 class="anot">0</h6>	
-
-				</div>
-				<div class="der">
-					<h6>Atlas</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/atlas.png" width="50"  alt="atlas">
-					<br>
-					<h6 class="anot">3</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6>America</h6>
-					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/america.png" width="50"  alt="america" >
-					<br>
-					<h6 class="anot">0</h6>	
-
-				</div>
-				<div class="der">
-					<h6>Queretaro</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/queretaro.png" width="50"  alt="queretaro">
+					<img  class="img-fluid" src=<? echo $imagenes[8]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">1</h6>
 
@@ -128,16 +44,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq">
-					<h6>Chivas</h6>
+					<h6><? echo $nombres[2]; ?></h6>
 					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/chivas2.png" width="50"  alt="chivas" >
+					<img  class="img-fluid" src=<? echo $imagenes[2]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">0</h6>	
+					<h6 class="anot">2</h6>	
 
 				</div>
 				<div class="der">
-					<h6>Toluca</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/toluca.png" width="50"  alt="toluca">
+					<h6><? echo $nombres[12]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[12]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">1</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[13]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[13]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">2</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[6]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[6]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">2</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[3]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[3]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">5</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[4]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[4]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">0</h6>
 
@@ -145,16 +98,71 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq">
-					<h6>Pumas</h6>
+					<h6><? echo $nombres[7]; ?></h6>
 					
-					<img class="img-fluid" src="<?= base_url(); ?>img/MX/pumas2.png" width="50"  alt="pumas" >
+					<img  class="img-fluid" src=<? echo $imagenes[7]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">0</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[18]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[18]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">3</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[10]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[10]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">0</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[1]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[1]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">1</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[9]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[9]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">0</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[15]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[15]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">0</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[16]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[16]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">1</h6>	
 
 				</div>
 				<div class="der">
-					<h6>Pachuca</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/pachuca2.png" width="50"  alt="pachuca">
+					<h6><? echo $nombres[5]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[5]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">0</h6>
 
@@ -162,16 +170,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq" style="margin-left: 100px">
-					<h6>Veracruz</h6>
+					<h6><? echo $nombres[14]; ?></h6>
 					
-					<img  class="img-fluid" src="<?= base_url(); ?>img/MX/veracruz.png" width="50"  alt="veracruz" >
+					<img  class="img-fluid" src=<? echo $imagenes[14]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">0</h6>	
 
 				</div>
 				<div class="der">
-					<h6>Necaxa</h6>
-					<img class="img-fluid" src="<?= base_url();?>img/MX/necaxa.png" width="50"  alt="necaxa">
+					<h6><? echo $nombres[17]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[17]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">2</h6>
 
@@ -247,7 +256,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="ladoderecho">
 		
 		<div class="puntos">
-			<h3 align="center">Jornada 1</h3>
+			<h3 align="center">Jornada 3</h3>
 			<table  style="margin-left: 80px; width: 100%; height: 50%;" class="table table-hover table-responsive table-bordered " id="tabla" align="center">
 				<tr>
 					<br>
@@ -264,124 +273,125 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/morelia.png" width="40">Morelia </p>
+						<p align="center"><img src=<? echo $imagenes[8];?>  width="40"><? echo $nombres[8];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Monterrey<img src="<?= base_url(); ?>img/MX/monterrey.png" width="35"></p>
+						<p align="center"><? echo $nombres[14];?> <img src=<? echo $imagenes[14];?>  width="40"></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/tijuana.png" width="45">Tijuana </p>
+						<p align="center"><img src=<? echo $imagenes[15];?>  width="40"><? echo $nombres[15];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Cruz Azul<img src="<?= base_url(); ?>img/MX/cruz.png" width="40"></p>
-					</td>
-
-
-				</tr>
-				<tr>
-					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/lobos.png" width="40">LobosBUAP</p>
-
-					</td>
-					<td>
-						<p>VS</p>
-					</td>
-					<td>
-						<p align="center">Santos<img src="<?= base_url(); ?>img/MX/santos.png" width="35"></p>
+						<p align="center"><? echo $nombres[7];?> <img src=<? echo $imagenes[7];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/tigres.png" width="30">Tigres </p>
+						<p align="center"><img src=<? echo $imagenes[6];?>  width="40"><? echo $nombres[6];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Puebla<img src="<?= base_url(); ?>img/MX/puebla.png" width="30"></p>
+						<p align="center"><? echo $nombres[10];?> <img src=<? echo $imagenes[10];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/leon.png" width="30">Leon </p>
+						<p align="center"><img src=<? echo $imagenes[17];?>  width="40"><? echo $nombres[17];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Atlas<img src="<?= base_url(); ?>img/MX/atlas.png" width="30"></p>
+						<p align="center"><? echo $nombres[13];?> <img src=<? echo $imagenes[13];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/america.png" width="30">America </p>
+						<p align="center"><img src=<? echo $imagenes[5];?>  width="40"><? echo $nombres[5];?> </p>
+
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Queretaro<img src="<?= base_url(); ?>img/MX/queretaro.png" width="30"></p>
+						<p align="center"><? echo $nombres[3];?> <img src=<? echo $imagenes[3];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/chivas2.png" width="45">Chivas </p>
+						<p align="center"><img src=<? echo $imagenes[1];?>  width="40"><? echo $nombres[1];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Toluca<img src="<?= base_url(); ?>img/MX/toluca.png" width="40"></p>
+						<p align="center"><? echo $nombres[12];?> <img src=<? echo $imagenes[12];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/pumas2.png" width="45">Pumas </p>
+						<p align="center"><img src=<? echo $imagenes[4];?>  width="40"><? echo $nombres[4];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Pachuca<img src="<?= base_url(); ?>img/MX/pachuca2.png" width="40"></p>
+						<p align="center"><? echo $nombres[9];?> <img src=<? echo $imagenes[9];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src="<?= base_url(); ?>img/MX/veracruz.png" width="45">Veracruz</p>
+						<p align="center"><img src=<? echo $imagenes[16];?>  width="40"><? echo $nombres[16];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center">Necaxa<img src="<?= base_url(); ?>img/MX/necaxa.png" width="40"></p>
+						<p align="center"><? echo $nombres[2];?> <img src=<? echo $imagenes[2];?>  width="40"></p>
+					</td>
+
+
+				</tr>
+				<tr>
+					<td>
+						<p align="center"><img src=<? echo $imagenes[18];?>  width="40"><? echo $nombres[18];?> </p>
+
+					</td>
+					<td>
+						<p>VS</p>
+					</td>
+					<td>
+						<p align="center"><? echo $nombres[11];?> <img src=<? echo $imagenes[11];?>  width="40"></p>
 					</td>
 
 
@@ -416,80 +426,82 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<tbody>
 					<tr>
 						<th scope="col">1</th>
-						<td>Atlas</td>
+						<td><?echo $nombres[2] ?></td>
+						<td>2</td>
+						<td>2</td>
 						<td>0</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>5</td>
+						<td>4</td>
+						<td>6</td>
 					</tr>
 					<tr>
 						<th scope="col">2</th>
-						<td>America</td>
+						<td><?echo $nombres[9] ?></td>
+						<td>2</td>
+						<td>2</td>
 						<td>0</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>5</td>
+						<td>3</td>
+						<td>6</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">3</th>
-						<td>Cruz Azul</td>
+						<td><?echo $nombres[6] ?></td>
+						<td>2</td>
+						<td>2</td>
 						<td>0</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>6</td>
+						<td>4</td>
+						<td>4</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">4</th>
-						<td>Guadalajara</td>
+						<td><?echo $nombres[3] ?></td>
+						<td>2</td>
+						<td>1</td>
+						<td>1</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">5</th>
-						<td>Leon</td>
+						<td><?echo $nombres[16] ?></td>
+						<td>2</td>
+						<td>1</td>
+						<td>1</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">6</th>
-						<td>Lobos</td>
+						<td><?echo $nombres[7] ?></td>
+						<td>2</td>
+						<td>1</td>
+						<td>1</td>
 						<td>0</td>
+						<td>1</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>1</td>
+						<td>1</td>
+
 						
 					</tr>
 					<tr>
 						<th scope="col">7</th>
-						<td>Monterrey</td>
-						<td>0</td>
-						<td>0</td>
+						<td><?echo $nombres[17] ?></td>
+						<td>2</td>
+						<td>1</td>
 						<td>0</td>
 						<td>0</td>
 						<td>0</td>

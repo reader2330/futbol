@@ -28,15 +28,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/Osorio2.jpg" alt="First slide" >
+					<img class="d-block img-fluid" src="<?= base_url();?>img/Editadas/Bale1-1.jpg" alt="First slide" >
 
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid" src="<?= base_url();?>img/Pulido/Pulido.jpg" alt="Second slide">
+						<img class="d-block img-fluid" src="<?= base_url();?>img/Editadas/cecilio1-1.jpg" alt="Second slide">
 
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid" src="<?= base_url();?>img/Osorio/osorio21.jpg" alt="Third slide">
+						<img class="d-block img-fluid" src="<?= base_url();?>img/Editadas/chicharito_rechaza.jpg" alt="Third slide">
+						
+					</div>
+					<div class="carousel-item">
+						<img class="d-block img-fluid" src="<?= base_url();?>img/Editadas/lozano.jpg" alt="Third slide">
 						
 					</div>
 				</div>
@@ -192,7 +196,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="izq">
 								<br>
 								<p align="center">Tigres</p>
-								<img src="<?= base_url();?>img/MX/tigres.png" width=80 alt="Curazao">
+								<img src="<?= base_url();?>img/MX/tigres.png" width=70 alt="Curazao">
 								<br>
 								<br>
 
@@ -230,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="der"> 
 
 								<p align="center">Querétaro</p>
-								<img src="<?= base_url(); ?>img/MX/queretaro.png" width=100 alt="queretaro"> 
+								<img src="<?= base_url(); ?>img/MX/queretaro.png" width=80 alt="queretaro"> 
 								<br>
 								<br>
 
@@ -260,7 +264,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="der"> 
 
 								<p align="center">Santos</p>
-								<img src="<?= base_url(); ?>img/MX/santos.png" width=100 alt="queretaro"> 
+								<img src="<?= base_url(); ?>img/MX/santos.png" width=80 alt="queretaro"> 
 								<br>
 								<br>
 
@@ -320,7 +324,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="der"> 
 
 								<p align="center">Monterrey</p>
-								<img src="<?= base_url(); ?>img/MX/monterrey.png" width=100 alt="monterrey"> 
+								<img src="<?= base_url(); ?>img/MX/monterrey.png" width=80 alt="monterrey"> 
 								<br>
 								<br>
 

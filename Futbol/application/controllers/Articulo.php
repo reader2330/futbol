@@ -297,49 +297,7 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 	
-	public function Jona_America(){
-		$data['titulo'] ="No estuve cerca del América: Jonathan dos Santos";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Jona_America');
-		$this->load->view('futbol/footer');
-	}
 
-	public function Bale_ManU(){
-		$data['titulo'] ="Agente de Bale llama 'ridículo' el posible traspaso al Man Utd";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Bale_ManU');
-		$this->load->view('futbol/footer');
-	}
-
-	public function Estampida_Sudafrica(){
-		$data['titulo'] ="Estampida durante juego en Sudáfrica deja dos muertos";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Estampida_Sudafrica');
-		$this->load->view('futbol/footer');
-	}
-
-	public function Neymar_Traidor(){
-		$data['titulo'] ="Letrero a las afueras del Camp Nou llama traidor a Neymar";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Neymar_Traidor');
-		$this->load->view('futbol/footer');
-	}
-
-	public function America_Top(){
-		$data['titulo'] ="América, en el Top 20 mundial de clubes de futbol con más followers";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/America_Top');
-		$this->load->view('futbol/footer');
-	}
-
-	public function Salcedo_BL(){
-		$data['titulo'] ="Salcedo, parte del once ideal de fichajes en Bundesliga";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Salcedo_BL');
-		$this->load->view('futbol/footer');
-	}
-
-		
 }
 
 ?>

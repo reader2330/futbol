@@ -32,7 +32,7 @@
 
 
 			<div class="d-flex justify-content-between hidden-lg-up">
-				<a class="navbar-brand" href="<?= base_url(); ?>inicio">
+				<a class="navbar-brand" href="<?= base_url(); ?>/Inicio">
 					Patada Inicial
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,26 +43,21 @@
 			<div class="collapse navbar-collapse" id="bd-main-nav">
 				<ul class="nav navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-item nav-link active" href="#">Patada Inicial</a>
+						<a class="nav-item nav-link active" href="<?= base_url(); ?>/Inicio">Patada Inicial</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?= base_url(); ?>categorias" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="<?= base_url(); ?>categorias/LigaMX">Liga MX</a>
-							<a class="dropdown-item" href="<?= base_url(); ?>categorias/LigaEspanola">Liga Santander</a>
-							<a class="dropdown-item" href="<?= base_url(); ?>categorias/LigaInglesa">Premier League</a>
-							<a class="dropdown-item" href="#">Copa Oro</a>
+							<a class="dropdown-item" href="<?= base_url(); ?>LigaMX">Liga MX</a>
+							<a class="dropdown-item" href="<?= base_url(); ?>LigaSantander">Liga Santander</a>
+							<a class="dropdown-item" href="<?= base_url(); ?>LigaPremier">Premier League</a>
+							
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-item nav-link " href="#">Galeria</a>
+						<a class="nav-item nav-link " href="<?= base_url(); ?>Galeria">Galeria</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-item nav-link " href="#">Tablas</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-item nav-link " href="#">Contactanos</a>
-					</li>
+					
 
 				</ul>
 			</div>
