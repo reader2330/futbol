@@ -83,6 +83,107 @@ class LigaMX extends CI_Controller {
 
 	}
 
+		public function articuloChivas(){
+		$data['titulo'] = "Chivas apuesta por mas canteranos para el siguiente torneo.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articuloChivas');
+		$this->load->view('futbol/footer');
+	}
+
+		public function articuloJugadoresSancionados(){
+		$data['titulo'] = "Te recordamos los jugadores sancionados para el arranque del torneo apertura 2017.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articuloJugadoresSancionados');
+		$this->load->view('futbol/footer');
+	}
+
+		public function duenias(){
+		$data['titulo'] ="'No jugamos para darle gusto a la gente': Jesús Dueñas";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/duenias');
+		$this->load->view('futbol/footer');
+	}
+
+		public function chivas_playera(){
+		$data['titulo'] = "Chivas presume la 12 en flamante jersey para Apertura 2017";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/chivas_playera');
+		$this->load->view('futbol/footer');
+	}   
+
+	public function america(){
+		$data['titulo'] ="	América, 'rejuvenecido' para el Apertura 2017";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/america');
+		$this->load->view('futbol/footer');
+	}
+
+	public function disculpa(){
+		$data['titulo'] ="Dueñas se disculpa con afición mexicana";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/disculpa');
+		$this->load->view('futbol/footer');
+	}
+
+	public function directivos(){
+		$data['titulo'] ="Directivos de Liga MX le dicen no a Osorio para reforzar al Tri";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/directivos');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function rayados(){
+		$data['titulo'] ="Rayados hace oficial salida de Cardona a Boca Juniors";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/rayados');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function mexicanos(){
+		$data['titulo'] ="'Mexicanos con confianza son potencia mundial': Almeyda";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/mexicanos');
+		$this->load->view('futbol/footer');
+
+
+	}
+
+		public function NicoCastillo_Gol(){
+		$data['titulo'] ="Golazo de Castillo ilumina a Pumas";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/NicoCastillo_Gol');
+		$this->load->view('futbol/footer');
+
+
+	}
+
+	public function America_vs_Pachuca(){
+		$data['titulo'] ="América endereza el vuelo y se impone a Pachuca";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/America_vs_Pachuca');
+		$this->load->view('futbol/footer');
+	}
+
+		public function Jona_America(){
+		$data['titulo'] ="No estuve cerca del América: Jonathan dos Santos";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Jona_America');
+		$this->load->view('futbol/footer');
+	}
+
+	public function America_Top(){
+		$data['titulo'] ="América, en el Top 20 mundial de clubes de futbol con más followers";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/America_Top');
+		$this->load->view('futbol/footer');
+	}
+
+
+
+
+
 	}
 
 	?>

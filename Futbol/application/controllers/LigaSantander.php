@@ -91,6 +91,102 @@ class LigaSantander extends CI_Controller {
 
 	}
 
+	public function articulo2(){
+		$data['titulo'] = "Nuevo Integrante del Real Madrid";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo2');
+		$this->load->view('futbol/footer');
+	}
+
+	public function articulo3(){
+		$data['titulo'] = "James Rodríguez, refuerzo de lujo del Bayern Munich.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo3');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function neymar(){
+		$data['titulo'] ="Neymar dejaría al Bacelona para ser protagonista del PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/neymar');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function madrid(){
+		$data['titulo'] ="Real Madrid y Chelsea llegan a acuerdo por Morata";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/madrid');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function Neymar_Paris(){
+		$data['titulo'] ="'Neymar le dice que sí a París': Afirman en Francia";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_Paris');
+		$this->load->view('futbol/footer');
+
+
+	}
+
+	public function James_narcotrafico(){
+		$data['titulo'] ="James Rodríguez y la historia que lo liga al narcotráfico";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/James_narcotrafico');
+		$this->load->view('futbol/footer');
+
+
+	}
+
+	public function Neymar_despedida(){
+		$data['titulo'] ="Neymar se habría 'despedido' de sus amigos del Barca";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_despedida');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Pique_Triunfo(){
+		$data['titulo'] ="Pique da triunfo al Barça sobre el Real Madrid en Miami";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Pique_Triunfo');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Bale_ManU(){
+		$data['titulo'] ="Agente de Bale llama 'ridículo' el posible traspaso al Man Utd";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Bale_ManU');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Neymar_Traidor(){
+		$data['titulo'] ="Letrero a las afueras del Camp Nou llama traidor a Neymar";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_Traidor');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Sustitutos_Neymar(){
+		$data['titulo'] ="Cinco candidatos que sustituirían a Neymar en el Barcelona";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Sustitutos_Neymar');
+		$this->load->view('futbol/footer');
+	}
+
+	public function PSG_Neymar(){
+		$data['titulo'] ="PSG haría oficial el fichaje de Neymar la próxima semana";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/PSG_Neymar');
+		$this->load->view('futbol/footer');
+	}
+
+
+
+
+
+
+
 }
 
 ?>
