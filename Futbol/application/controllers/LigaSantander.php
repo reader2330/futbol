@@ -181,6 +181,31 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Contratacion(){
+		$data['titulo'] ="PSG hace oficial la contratación de Neymar Jr.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Contratacion');
+		$this->load->view('futbol/footer');
+	}
+
+	public function NumeroNeymar(){
+		$data['titulo'] ="Neymar vestirá la número 10 en el PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/NumeroNeymar');
+		$this->load->view('futbol/footer');
+	}
+
+	public function AdiosNeymar(){
+		$data['titulo'] ="Neymar se despide del Barça con video que enchina la piel";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/AdiosNeymar');
+		$this->load->view('futbol/footer');
+	}
+
+
+
+
+
 
 
 

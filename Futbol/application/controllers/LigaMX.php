@@ -180,6 +180,13 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Mateus(){
+		$data['titulo'] ="Mateus Uribe realiza exámenes médicos con América";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mateus');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 

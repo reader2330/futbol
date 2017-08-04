@@ -359,6 +359,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/Agosto_Caliente');
 		$this->load->view('futbol/footer');
 	}
+
+	public function PSG(){
+		$data['titulo'] ="PSG, una máquina de los grandes fichajes";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/PSG');
+		$this->load->view('futbol/footer');
+	}
 	
 }
 
