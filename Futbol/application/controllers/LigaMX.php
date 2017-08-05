@@ -44,7 +44,7 @@ class LigaMX extends CI_Controller {
 		}
 
 	public function ImagenesEquipos(){
-		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME']));
 		$Imagenes = array
 		(1 =>  $base."/img/MX/america.png" ,
 		 2 =>  $base."/img/MX/atlas.png" ,
@@ -71,12 +71,65 @@ class LigaMX extends CI_Controller {
 
 	}
 
+	public function NombresArticulos(){
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME']));
+		$NombresArticulos = array(
+			1 => $base."/LigaMX/Mateus",
+			2 => $base."/LigaMX/America_Top",
+			3 => $base."/LigaMX/Jona_America",
+			4 => $base."/LigaMX/America_vs_Pachuca",
+			5 => $base."/LigaMX/NicoCastillo_Gol",
+			6 => $base."/LigaMX/Omar_arellano"
+
+
+			);
+		return $NombresArticulos;
+
+	}
+
+	public function ImagenesArticulos(){
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME']));
+		$ImagenesArticulos = array(
+			1 => $base."/img/Mateus/Mateus1.png",
+			2 => $base."/img/america/americatop.jpg", 
+			3 => $base."/img/mexicanos/Jona1-1.jpg", 
+			4 => $base."/img/america/cecilio1-1.jpg", 
+			5 => $base."/img/pumas/Nico.png", 
+			6 => $base."/img/Arellano/arellano.jpg", 
+			 
+
+			);
+		return $ImagenesArticulos;
+
+	}
+
+	public function TitulosArticulos(){
+		
+		$TitulosArticulos = array(
+			1 => "Mateus Uribe realiza exámenes médicos con América",
+			2 => "América, en el Top 20 mundial de clubes de futbol con más followers", 
+			3 => "No estuve cerca del América': Jonathan dos Santos", 
+			4 => "América endereza el 'vuelo' y se impone a Pachuca", 
+			5 => "Golazo de Castillo ilumina a Pumas en arranque del A2017", 
+			6 => "Omar Arellano es cortado por el Ontinyent", 
+			 
+			);
+
+		return $TitulosArticulos;
+
+	}
+
 
 	public function index(){
 
 		$data['titulo'] = 'LigaMX';
 		$data2['nombres'] = $this->Nombresequipos();
 		$data2['imagenes'] = $this->ImagenesEquipos();
+		$data2['NombresArticulos'] = $this->NombresArticulos();
+		$data2['ImagenesArticulos'] = $this->ImagenesArticulos();
+		$data2['TitulosArticulos'] = $this->TitulosArticulos();
+
+
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/LigaMX',$data2);
 		$this->load->view('futbol/footer');
@@ -177,6 +230,13 @@ class LigaMX extends CI_Controller {
 		$data['titulo'] ="América, en el Top 20 mundial de clubes de futbol con más followers";
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/America_Top');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Mateus(){
+		$data['titulo'] ="Mateus Uribe realiza exámenes médicos con América";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mateus');
 		$this->load->view('futbol/footer');
 	}
 

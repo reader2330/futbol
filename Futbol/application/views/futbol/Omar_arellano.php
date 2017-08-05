@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/ajax/ajax1.png" align="center">
+		<img src="<?= base_url() ?>img/Arellano/arellano.jpg" align="center">
 	</div>
 	<br>
 	<br>

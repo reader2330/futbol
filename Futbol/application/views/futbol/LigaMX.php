@@ -197,11 +197,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<ul class="list-group">
 					<li class="list-group-item">
 						<div class="media">
-							<img class="d-flex align-self-center mr-3" src="<?= base_url(); ?>img/Chivas/Chivas1.png" alt="Chivas" width=40% height=100%>
+							<img class="d-flex align-self-center mr-3" src=<?= $ImagenesArticulos[1] ?> alt=<?= $TitulosArticulos[1] ?> width=40% height=100%>
 							<div class="media-body">
 								<br>
 
-								<a href="<?= base_url(); ?>Articulo/articuloChivas" id="link"><h5 class="mt-0">Chivas apuesta por mas canteranos para el siguiente torneo.</h5></a>
+								<a href= <?= $NombresArticulos[1] ?> id="link"><h5 class="mt-0"><?= $TitulosArticulos[1]?></h5></a>
 
 
 							</div>
@@ -216,12 +216,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<ul class="list-group">
 					<li class="list-group-item">
 						<div class="media">
-							<img class="d-flex align-self-center mr-3" src="<?= base_url() ?>img/Juventus/juve.jpg" alt="Juventus" width=40% height=100%>
+							<img class="d-flex align-self-center mr-3" src=<?= $ImagenesArticulos[2] ?> alt=<?= $TitulosArticulos[2] ?> width=40% height=100%>
 							<div class="media-body">
 								<br>
 
-								<a href="<?= base_url(); ?>Articulo/juventus_cancela" id="link"><h5 class="mt-0">Juventus cancela partido frente a Monterrey y Tigres.</h5></a>
-								
+								<a href= <?= $NombresArticulos[2] ?> id="link"><h5 class="mt-0"><?= $TitulosArticulos[2]?></h5></a>
 
 
 							</div>
@@ -234,12 +233,65 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<li class="list-group-item">
 						<div class="media">
-							<img class="d-flex align-self-center mr-3" src="<?= base_url() ?>img/chivas_playera/chivas1.png" alt="Chivas" width=40% height=100%>
+							<img class="d-flex align-self-center mr-3" src=<?= $ImagenesArticulos[3] ?> alt=<?= $TitulosArticulos[3] ?> width=40% height=100%>
 							<div class="media-body">
 								<br>
 
-								<a href="<?= base_url(); ?>Articulo/chivas_playera" id="link"><h5 class="mt-0">Chivas presume la 12 en flamante jersey para Apertura 2017<</h5></a>
-								
+								<a href= <?= $NombresArticulos[3] ?> id="link"><h5 class="mt-0"><?= $TitulosArticulos[3]?></h5></a>
+
+
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="noticia">
+				<ul class="list-group">
+
+					<li class="list-group-item">
+						<div class="media">
+							<img class="d-flex align-self-center mr-3" src=<?= $ImagenesArticulos[4] ?> alt=<?= $TitulosArticulos[4] ?> width=40% height=100%>
+							<div class="media-body">
+								<br>
+
+								<a href= <?= $NombresArticulos[4] ?> id="link"><h5 class="mt-0"><?= $TitulosArticulos[4]?></h5></a>
+
+
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="noticia">
+				<ul class="list-group">
+
+					<li class="list-group-item">
+						<div class="media">
+							<img class="d-flex align-self-center mr-3" src=<?= $ImagenesArticulos[5] ?> alt=<?= $TitulosArticulos[5] ?> width=40% height=100%>
+							<div class="media-body">
+								<br>
+
+								<a href= <?= $NombresArticulos[5] ?> id="link"><h5 class="mt-0"><?= $TitulosArticulos[5]?></h5></a>
+
+
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="noticia">
+				<ul class="list-group">
+
+					<li class="list-group-item">
+						<div class="media">
+							<img class="d-flex align-self-center mr-3" src=<?= $ImagenesArticulos[6] ?> alt=<?= $TitulosArticulos[6] ?> width=40% height=100%>
+							<div class="media-body">
+								<br>
+
+								<a href= <?= $NombresArticulos[6] ?> id="link"><h5 class="mt-0"><?= $TitulosArticulos[6]?></h5></a>
 
 
 							</div>
@@ -493,7 +545,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<td>1</td>
 						<td>0</td>
 						<td>1</td>
-						<td>1</td>
+						
 
 						
 					</tr>
