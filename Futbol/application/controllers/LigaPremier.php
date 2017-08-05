@@ -97,6 +97,14 @@ class LigaPremier extends CI_Controller {
 
 	}
 
+
+	public function Tinder(){
+		$data['titulo'] ="Tinder planea ser el próximo patrocinador del Man Utd";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Tinder');
+		$this->load->view('futbol/footer');
+	}
+
 }
 
 ?>
