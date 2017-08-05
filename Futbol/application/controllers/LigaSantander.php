@@ -181,6 +181,27 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Neymar_retos(){
+		$data['titulo'] ="Neymar asegura que nuevos retos lo llevaron al PSG, no el dinero";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_retos');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Neymar_afionados(){
+		$data['titulo'] ="Los seguidores del PSG corrieron a las tiendas a comprar la camiseta del brasileño.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Neymar_afionados');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Ochometro(){
+		$data['titulo'] ="Standard de Lieja lleva cuenta de atajadas con el 'Ochoaometro'";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Ochoaometro');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 

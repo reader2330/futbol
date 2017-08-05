@@ -180,6 +180,13 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Omar_arellano(){
+		$data['titulo'] ="Omar Arellano es cortado por el Ontinyent";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Omar_arellano');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 
