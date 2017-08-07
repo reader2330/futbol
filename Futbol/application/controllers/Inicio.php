@@ -67,11 +67,64 @@ class Inicio extends CI_Controller {
 
 	}
 
+	public function Articulos(){
+
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
+
+		$Articulos = array(
+			1 => $base."LigaMX/Omar_arellano",
+			2 => $base."LigaSantander/Neymar_afionados", 
+			3 => $base."LigaPremier/Tinder", 
+
+			);
+
+		return $Articulos;
+
+
+
+
+	}
+
+	public function NombresArticulos(){
+
+		$Titulos = array(
+			1 => "Omar Arellano es cortado por el Ontinyent",
+			2 => "Los seguidores del PSG corrieron a las tiendas a comprar la camiseta del brasileño.", 
+			3 => "Tinder planea ser el próximo patrocinador del Man Utd", 
+
+			);
+
+		return $Titulos;
+
+
+
+	}
+
+	public function ImagenesArticulos(){
+
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
+
+		$ImagenesArticulos = array(
+			1 => $base."img/Arellano/arellano.jpg",
+			2 => $base."img/neymar/pasion.jpg", 
+			3 => $base."img/Tinder/Tinder1.png", 
+
+			);
+
+		return $ImagenesArticulos;
+
+	}
+
 	public function index()
 	{
 
 		$data2['Nombres']=$this->Nombresequipos();
 		$data2['Imagenes']=$this->ImagenesEquipos();
+		$data2['Articulos']=$this->Articulos();
+		$data2['NombresArticulos']=$this->NombresArticulos();
+		$data2['ImagenesArticulos']=$this->ImagenesArticulos();
+
+
 		$data['titulo'] = 'Patada Inicial';
 
 

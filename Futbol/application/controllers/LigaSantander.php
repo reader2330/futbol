@@ -79,12 +79,63 @@ class LigaSantander extends CI_Controller {
 
 	}
 
+	public function NombresArticulos(){
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME']));
+		$NombresArticulos = array(
+			1 => $base."/LigaSantander/Ochoaometro",
+			2 => $base."/LigaSantander/Neymar_afionados",
+			3 => $base."/LigaSantander/Neymar_retos",
+			4 => $base."/LigaSantander/AdiosNeymar",
+			5 => $base."/LigaSantander/NumeroNeymar",
+			6 => $base."/LigaSantander/Contratacion"
+
+
+			);
+		return $NombresArticulos;
+
+	}
+
+	public function ImagenesArticulos(){
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME']));
+		$ImagenesArticulos = array(
+			1 => $base."/img/Ochoa/ochometro.jpg",
+			2 => $base."/img/neymar/pasion.jpg", 
+			3 => $base."/img/neymar/paris.jpg", 
+			4 => $base."/img/AdiosNeymar/AdiosNeymar1.png", 
+			5 => $base."/img/NeymarNumero/NeymarNumero1.png", 
+			6 => $base."/img/Contratacion/Contratacion1.png", 
+			 
+
+			);
+		return $ImagenesArticulos;
+
+	}
+
+	public function TitulosArticulos(){
+		
+		$TitulosArticulos = array(
+			1 => "Standard de Lieja lleva cuenta de atajadas con el 'Ochoaometro'",
+			2 => "Los seguidores del PSG corrieron a las tiendas a comprar la camiseta del brasileño.", 
+			3 => "Neymar asegura que nuevos retos lo llevaron al PSG, no el dinero", 
+			4 => "Neymar se despide del Barça con video que enchina la piel", 
+			5 => "Neymar vestirá la número 10 en el PSG", 
+			6 => "PSG hace oficial la contratación de Neymar Jr.", 
+			 
+			);
+
+		return $TitulosArticulos;
+
+	}
+
 
 	public function index(){
 
 		$data['titulo'] = 'LigaSantander';
 		$data2['nombres'] = $this->Nombresequipos();
 		$data2['imagenes'] = $this->ImagenesEquipos();
+		$data2['NombresArticulos'] = $this->NombresArticulos();
+		$data2['ImagenesArticulos'] = $this->ImagenesArticulos();
+		$data2['TitulosArticulos'] = $this->TitulosArticulos();
 		$this->load->view('futbol/header',$data);
 		$this->load->view('futbol/LigaEspanola',$data2);
 		$this->load->view('futbol/footer');
@@ -181,6 +232,27 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Contratacion(){
+		$data['titulo'] ="PSG hace oficial la contratación de Neymar Jr.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Contratacion');
+		$this->load->view('futbol/footer');
+	}
+
+	public function NumeroNeymar(){
+		$data['titulo'] ="Neymar vestirá la número 10 en el PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/NumeroNeymar');
+		$this->load->view('futbol/footer');
+	}
+
+	public function AdiosNeymar(){
+		$data['titulo'] ="Neymar se despide del Barça con video que enchina la piel";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/AdiosNeymar');
+		$this->load->view('futbol/footer');
+	}
+
 	public function Neymar_retos(){
 		$data['titulo'] ="Neymar asegura que nuevos retos lo llevaron al PSG, no el dinero";
 		$this->load->view('futbol/header',$data);
@@ -201,6 +273,11 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/Ochoaometro');
 		$this->load->view('futbol/footer');
 	}
+
+
+
+
+
 
 
 

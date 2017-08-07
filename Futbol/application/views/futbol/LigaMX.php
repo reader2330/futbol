@@ -26,17 +26,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="resultados">
 			<div class="resultado" >
 				<div class="izq">
-					<h6><? echo $nombres[11]; ?></h6>
+					<h6><? echo $nombres[15]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[11]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[15]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">0</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[7]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[7]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">3</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[6]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[6]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">3</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[10]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[10]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">2</h6>
+
+				</div>
+			</div>
+			<div class="resultado">
+				<div class="izq">
+					<h6><? echo $nombres[8]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[8]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">1</h6>	
 
 				</div>
 				<div class="der">
-					<h6><? echo $nombres[8]; ?></h6>
+					<h6><? echo $nombres[14]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[8]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[14]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">1</h6>
 
@@ -44,9 +80,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq">
-					<h6><? echo $nombres[2]; ?></h6>
+					<h6><? echo $nombres[1]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[2]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[1]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">2</h6>	
 
@@ -62,17 +98,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq">
-					<h6><? echo $nombres[13]; ?></h6>
+					<h6><? echo $nombres[16]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[13]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[16]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">2</h6>	
+					<h6 class="anot">3</h6>	
 
 				</div>
 				<div class="der">
-					<h6><? echo $nombres[6]; ?></h6>
+					<h6><? echo $nombres[2]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[6]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[2]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">2</h6>
 
@@ -80,53 +116,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq">
-					<h6><? echo $nombres[3]; ?></h6>
+					<h6><? echo $nombres[17]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[3]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[17]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">5</h6>	
+					<h6 class="anot">1</h6>	
 
 				</div>
 				<div class="der">
-					<h6><? echo $nombres[4]; ?></h6>
+					<h6><? echo $nombres[13]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[4]; ?> width="50"  alt="morelia" >
-					<br>
-					<h6 class="anot">0</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6><? echo $nombres[7]; ?></h6>
-					
-					<img  class="img-fluid" src=<? echo $imagenes[7]; ?> width="50"  alt="morelia" >
-					<br>
-					<h6 class="anot">0</h6>	
-
-				</div>
-				<div class="der">
-					<h6><? echo $nombres[18]; ?></h6>
-					
-					<img  class="img-fluid" src=<? echo $imagenes[18]; ?> width="50"  alt="morelia" >
-					<br>
-					<h6 class="anot">3</h6>
-
-				</div>
-			</div>
-			<div class="resultado">
-				<div class="izq">
-					<h6><? echo $nombres[10]; ?></h6>
-					
-					<img  class="img-fluid" src=<? echo $imagenes[10]; ?> width="50"  alt="morelia" >
-					<br>
-					<h6 class="anot">0</h6>	
-
-				</div>
-				<div class="der">
-					<h6><? echo $nombres[1]; ?></h6>
-					
-					<img  class="img-fluid" src=<? echo $imagenes[1]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[13]; ?> width="50"  alt="morelia" >
 					<br>
 					<h6 class="anot">1</h6>
 
@@ -134,55 +134,55 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div class="resultado">
 				<div class="izq">
+					<h6><? echo $nombres[4]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[4]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">2</h6>	
+
+				</div>
+				<div class="der">
 					<h6><? echo $nombres[9]; ?></h6>
 					
 					<img  class="img-fluid" src=<? echo $imagenes[9]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">0</h6>	
-
-				</div>
-				<div class="der">
-					<h6><? echo $nombres[15]; ?></h6>
-					
-					<img  class="img-fluid" src=<? echo $imagenes[15]; ?> width="50"  alt="morelia" >
-					<br>
-					<h6 class="anot">0</h6>
+					<h6 class="anot">2</h6>
 
 				</div>
 			</div>
 			<div class="resultado">
 				<div class="izq">
-					<h6><? echo $nombres[16]; ?></h6>
-					
-					<img  class="img-fluid" src=<? echo $imagenes[16]; ?> width="50"  alt="morelia" >
-					<br>
-					<h6 class="anot">1</h6>	
-
-				</div>
-				<div class="der">
 					<h6><? echo $nombres[5]; ?></h6>
 					
 					<img  class="img-fluid" src=<? echo $imagenes[5]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">0</h6>
+					<h6 class="anot">2</h6>	
+
+				</div>
+				<div class="der">
+					<h6><? echo $nombres[3]; ?></h6>
+					
+					<img  class="img-fluid" src=<? echo $imagenes[3]; ?> width="50"  alt="morelia" >
+					<br>
+					<h6 class="anot">2</h6>
 
 				</div>
 			</div>
 			<div class="resultado">
 				<div class="izq" style="margin-left: 100px">
-					<h6><? echo $nombres[14]; ?></h6>
+					<h6><? echo $nombres[18]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[14]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[18]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">0</h6>	
+					<h6 class="anot">2</h6>	
 
 				</div>
 				<div class="der">
-					<h6><? echo $nombres[17]; ?></h6>
+					<h6><? echo $nombres[11]; ?></h6>
 					
-					<img  class="img-fluid" src=<? echo $imagenes[17]; ?> width="50"  alt="morelia" >
+					<img  class="img-fluid" src=<? echo $imagenes[11]; ?> width="50"  alt="morelia" >
 					<br>
-					<h6 class="anot">2</h6>
+					<h6 class="anot">0</h6>
 
 				</div>
 			</div>
@@ -308,7 +308,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="ladoderecho">
 		
 		<div class="puntos">
-			<h3 align="center">Jornada 3</h3>
+			<h3 align="center">Jornada 4</h3>
 			<table  style="margin-left: 80px; width: 100%; height: 50%;" class="table table-hover table-responsive table-bordered " id="tabla" align="center">
 				<tr>
 					<br>
@@ -325,125 +325,125 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[8];?>  width="40"><? echo $nombres[8];?> </p>
+						<p align="center"><img src=<? echo $imagenes[11];?>  width="40"><? echo $nombres[11];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[14];?> <img src=<? echo $imagenes[14];?>  width="40"></p>
+						<p align="center"><? echo $nombres[15];?> <img src=<? echo $imagenes[15];?>  width="40"></p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[15];?>  width="40"><? echo $nombres[15];?> </p>
+						<p align="center"><img src=<? echo $imagenes[2];?>  width="40"><? echo $nombres[2];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[7];?> <img src=<? echo $imagenes[7];?>  width="40"></p>
-					</td>
-
-
-				</tr>
-				<tr>
-					<td>
-						<p align="center"><img src=<? echo $imagenes[6];?>  width="40"><? echo $nombres[6];?> </p>
-
-					</td>
-					<td>
-						<p>VS</p>
-					</td>
-					<td>
-						<p align="center"><? echo $nombres[10];?> <img src=<? echo $imagenes[10];?>  width="40"></p>
+						<p align="center"><? echo $nombres[1];?> <img src=<? echo $imagenes[1];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[17];?>  width="40"><? echo $nombres[17];?> </p>
+						<p align="center"><img src=<? echo $imagenes[3];?>  width="40"><? echo $nombres[3];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[13];?> <img src=<? echo $imagenes[13];?>  width="40"></p>
+						<p align="center"><? echo $nombres[16];?> <img src=<? echo $imagenes[16];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[5];?>  width="40"><? echo $nombres[5];?> </p>
-
+						<p align="center"><img src=<? echo $imagenes[13];?>  width="40"><? echo $nombres[13];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[3];?> <img src=<? echo $imagenes[3];?>  width="40"></p>
+						<p align="center"><? echo $nombres[8];?> <img src=<? echo $imagenes[8];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[1];?>  width="40"><? echo $nombres[1];?> </p>
+						<p align="center"><img src=<? echo $imagenes[7];?>  width="40"><? echo $nombres[7];?> </p>
+
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[12];?> <img src=<? echo $imagenes[12];?>  width="40"></p>
+						<p align="center"><? echo $nombres[4];?> <img src=<? echo $imagenes[4];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[4];?>  width="40"><? echo $nombres[4];?> </p>
+						<p align="center"><img src=<? echo $imagenes[10];?>  width="40"><? echo $nombres[10];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[9];?> <img src=<? echo $imagenes[9];?>  width="40"></p>
+						<p align="center"><? echo $nombres[17];?> <img src=<? echo $imagenes[17];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[16];?>  width="40"><? echo $nombres[16];?> </p>
+						<p align="center"><img src=<? echo $imagenes[9];?>  width="40"><? echo $nombres[9];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[2];?> <img src=<? echo $imagenes[2];?>  width="40"></p>
+						<p align="center"><? echo $nombres[5];?> <img src=<? echo $imagenes[5];?>  width="40"></p>
 					</td>
 
 
 				</tr>
 				<tr>
 					<td>
-						<p align="center"><img src=<? echo $imagenes[18];?>  width="40"><? echo $nombres[18];?> </p>
+						<p align="center"><img src=<? echo $imagenes[12];?>  width="40"><? echo $nombres[12];?> </p>
 
 					</td>
 					<td>
 						<p>VS</p>
 					</td>
 					<td>
-						<p align="center"><? echo $nombres[11];?> <img src=<? echo $imagenes[11];?>  width="40"></p>
+						<p align="center"><? echo $nombres[6];?> <img src=<? echo $imagenes[6];?>  width="40"></p>
+					</td>
+
+
+				</tr>
+				<tr>
+					<td>
+						<p align="center"><img src=<? echo $imagenes[14];?>  width="40"><? echo $nombres[14];?> </p>
+
+					</td>
+					<td>
+						<p>VS</p>
+					</td>
+					<td>
+						<p align="center"><? echo $nombres[18];?> <img src=<? echo $imagenes[18];?>  width="40"></p>
 					</td>
 
 
@@ -478,73 +478,73 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<tbody>
 					<tr>
 						<th scope="col">1</th>
-						<td><?echo $nombres[2] ?></td>
+						<td><?echo $nombres[6] ?></td>
+						<td>3</td>
 						<td>2</td>
-						<td>2</td>
+						<td>1</td>
 						<td>0</td>
-						<td>0</td>
+						<td>9</td>
 						<td>5</td>
-						<td>4</td>
-						<td>6</td>
+						<td>7</td>
 					</tr>
 					<tr>
 						<th scope="col">2</th>
-						<td><?echo $nombres[9] ?></td>
-						<td>2</td>
-						<td>2</td>
-						<td>0</td>
-						<td>0</td>
-						<td>5</td>
+						<td><?echo $nombres[7] ?></td>
 						<td>3</td>
-						<td>6</td>
+						<td>2</td>
+						<td>1</td>
+						<td>0</td>
+						<td>4</td>
+						<td>4</td>
+						<td>7</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">3</th>
-						<td><?echo $nombres[6] ?></td>
+						<td><?echo $nombres[16] ?></td>
+						<td>3</td>
 						<td>2</td>
-						<td>2</td>
-						<td>0</td>
+						<td>1</td>
 						<td>0</td>
 						<td>6</td>
-						<td>4</td>
-						<td>4</td>
+						<td>3</td>
+						<td>7</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">4</th>
-						<td><?echo $nombres[3] ?></td>
-						<td>2</td>
-						<td>1</td>
-						<td>1</td>
-						<td>0</td>
+						<td><?echo $nombres[9] ?></td>
 						<td>3</td>
 						<td>2</td>
-						<td>4</td>
+						<td>1</td>
+						<td>0</td>
+						<td>5</td>
+						<td>3</td>
+						<td>7</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">5</th>
-						<td><?echo $nombres[16] ?></td>
-						<td>2</td>
-						<td>1</td>
-						<td>1</td>
-						<td>0</td>
+						<td><?echo $nombres[2] ?></td>
 						<td>3</td>
 						<td>2</td>
-						<td>4</td>
+						<td>0</td>
+						<td>1</td>
+						<td>7</td>
+						<td>3</td>
+						<td>6</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">6</th>
-						<td><?echo $nombres[7] ?></td>
+						<td><?echo $nombres[1] ?></td>
+						<td>3</td>
 						<td>2</td>
-						<td>1</td>
-						<td>1</td>
 						<td>0</td>
 						<td>1</td>
-						<td>0</td>
-						<td>1</td>
+						<td>4</td>
+						<td>2</td>
+						<td>6</td>
 						
 
 						
@@ -552,144 +552,151 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<tr>
 						<th scope="col">7</th>
 						<td><?echo $nombres[17] ?></td>
-						<td>2</td>
+						<td>3</td>
 						<td>1</td>
+						<td>2</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>7</td>
+						<td>5</td>
+						<td>5</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">8</th>
-						<td>Morelia</td>
+						<td><?echo $nombres[3] ?></td>
+						<td>3</td>
+						<td>1</td>
+						<td>2</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>5</td>
+						<td>2</td>
+						<td>5</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">9</th>
-						<td>Necaxa</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td><?echo $nombres[13] ?></td>
+						
+						<td>3</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>2</td>
+						<td>-3</td>
+						<td>4</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">10</th>
-						<td>Pachuca</td>
+						<td><?echo $nombres[14] ?></td>
+						
+						<td>3</td>
 						<td>0</td>
+						<td>3</td>
 						<td>0</td>
+						<td>4</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>3</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">11</th>
-						<td>Puebla</td>
+						<td><?echo $nombres[4] ?></td>
+
+						<td>3</td>
 						<td>0</td>
+						<td>3</td>
 						<td>0</td>
+						<td>3</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>3</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">12</th>
-						<td>Pumas</td>
+						<td><?echo $nombres[8] ?></td>
+						
+						<td>3</td>
 						<td>0</td>
+						<td>3</td>
 						<td>0</td>
+						<td>2</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>3</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">13</th>
-						<td>Queretaro</td>
+						<td><?echo $nombres[12] ?></td>
+						
+						<td>3</td>
+						<td>1</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>2</td>
+						<td>3</td>
+						<td>-1</td>
+						<td>3</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">14</th>
-						<td>Santos</td>
+						<td><?echo $nombres[18] ?></td>
+						
+						<td>3</td>
+						<td>1</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>2</td>
+						<td>2</td>
+						<td>-1</td>
+						<td>3</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">15</th>
-						<td>Tigres</td>
+						<td><?echo $nombres[5] ?></td>
+						
+						<td>3</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>-5</td>
+						<td>1</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">16</th>
-						<td>Tijuana</td>
+						<td><?echo $nombres[11] ?></td>	
+						<td>3</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>1</td>
+						<td>2</td>
+						<td>1</td>
+						<td>-7</td>
+						<td>1</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">17</th>
-						<td>Toluca</td>
+						<td><?echo $nombres[10] ?></td>
+						<td>3</td>
 						<td>0</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>3</td>
+						<td>2</td>
+						<td>-4</td>
 						<td>0</td>
 						
 					</tr>
 					<tr>
 						<th scope="col">18</th>
-						<td>Veracruz</td>
+						<td><?echo $nombres[15] ?></td>
+						<td>3</td>
 						<td>0</td>
 						<td>0</td>
+						<td>3</td>
 						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
+						<td>-6</td>
 						<td>0</td>
 						
 					</tr>
