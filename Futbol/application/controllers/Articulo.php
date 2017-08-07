@@ -366,6 +366,13 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/PSG');
 		$this->load->view('futbol/footer');
 	}
+
+	public function DragonBall(){
+		$data['titulo'] ="Goku y sus amigos estan de regreso";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/DragonBall');
+		$this->load->view('futbol/footer');
+	}
 	
 }
 
