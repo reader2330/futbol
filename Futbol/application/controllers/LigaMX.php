@@ -247,6 +247,20 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function William_LobosBuap(){
+		$data['titulo'] ="William Palacios, baja definitiva de Lobos tras riña";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/William_LobosBuap');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Futbolistas_Manchados(){
+		$data['titulo'] =">Futbolistas que han manchado su carrera por amor a la fiesta";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Futbolistas_Manchados');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 

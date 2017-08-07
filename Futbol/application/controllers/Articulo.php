@@ -373,6 +373,27 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/DragonBall');
 		$this->load->view('futbol/footer');
 	}
+
+	public function Eintracht_Mexicanos(){
+		$data['titulo'] ="Eintracht presume a mexicanos en su presentación";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Eintracht_Mexicanos');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Zenit_Layun(){
+		$data['titulo'] ="Zenit pretendería fichar a Miguel Layún";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Zenit_Layun');
+		$this->load->view('futbol/footer');
+	}
+
+
+
+
+	
+
+
 	
 }
 
