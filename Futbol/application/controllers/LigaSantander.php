@@ -49,7 +49,7 @@ class LigaSantander extends CI_Controller {
 	}
 
 	public function ImagenesEquipos(){
-		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
+		$base=preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME']));
 		$Imagenes = array
 		(1 =>  $base."/img/LigaSantander/Deportivo_Alaves.png" ,
 			2 =>  $base."/img/LigaSantander/AthleticBilbao.png" ,
@@ -273,22 +273,6 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/Ochoaometro');
 		$this->load->view('futbol/footer');
 	}
-
-	public function Dybala_Neymar(){
-		$data['titulo'] ="Dybala, 'plan b' del Barça para reemplazar a Neymar";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/Dybala_Neymar');
-		$this->load->view('futbol/footer');
-	}
-
-	public function RealSociedad_Reyes(){
-		$data['titulo'] ="Real Sociedad buscaría reunir a Reyes con Vela";
-		$this->load->view('futbol/header',$data);
-		$this->load->view('futbol/RealSociedad_Reyes');
-		$this->load->view('futbol/footer');
-	}
-
-
 
 
 
