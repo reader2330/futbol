@@ -295,6 +295,22 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Dybala_Neymar(){
+		$data['titulo'] ="Dybala, 'plan b' del Barça para reemplazar a Neymar";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Dybala_Neymar');
+		$this->load->view('futbol/footer');
+	}
+
+		public function RealSociedad_Reyes(){
+		$data['titulo'] ="Real Sociedad buscaría reunir a Reyes con Vela";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/RealSociedad_Reyes');
+		$this->load->view('futbol/footer');
+	}
+
+
+
 
 
 
