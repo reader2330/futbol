@@ -59,7 +59,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<br>
 
 
-
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- InicioPatada -->
+		<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-8121027888898713"
+		data-ad-slot="4188737005"
+		data-ad-format="auto"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 
 		<div class="resultados">
 
@@ -343,6 +352,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<br>
 		<br>
 
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- InicioPatada -->
+		<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-8121027888898713"
+		data-ad-slot="4188737005"
+		data-ad-format="auto"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<br>
+		<br>
 		<br>
 		<h1 align="center">Ultimos Articulos</h1>
 		<br>
@@ -371,7 +392,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="noticia" >
 				<div class="card" id="card">
 					<div class="card-block">
-					<a href=<?= $Articulos[2] ?> style="text-decoration: none;"><h3><?= $NombresArticulos[2]?></h3></a>
+						<a href=<?= $Articulos[2] ?> style="text-decoration: none;"><h3><?= $NombresArticulos[2]?></h3></a>
 					</div>
 					<br>
 					<a href= <?= $Articulos[2] ?> style="text-decoration: none;"><img src="<?= $ImagenesArticulos[2]?>" alt="<?= $NombresArticulos[2] ?>" width=100% ></a>
@@ -392,13 +413,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<div class="noticia">
 				<div class="card" id="card">
-						<div class="card-block">
-							<a href=<?= $Articulos[3] ?> style="text-decoration: none;"><h3><?= $NombresArticulos[3]?></h3></a>
-						</div>
-						<br>
-						<a href= <?= $Articulos[3] ?> style="text-decoration: none;"><img src="<?= $ImagenesArticulos[3]?>" alt="<?= $NombresArticulos[3] ?>" width=100% ></a>
-						
+					<div class="card-block">
+						<a href=<?= $Articulos[3] ?> style="text-decoration: none;"><h3><?= $NombresArticulos[3]?></h3></a>
 					</div>
+					<br>
+					<a href= <?= $Articulos[3] ?> style="text-decoration: none;"><img src="<?= $ImagenesArticulos[3]?>" alt="<?= $NombresArticulos[3] ?>" width=100% ></a>
+
+				</div>
 			</div>
 
 		</div>

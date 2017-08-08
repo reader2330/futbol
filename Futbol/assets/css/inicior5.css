@@ -2,10 +2,12 @@
 
 	.resultados{
 		height: 1400px;
+		margin-bottom: 500px;
 	}
 	.noticias{
 		flex-wrap: wrap;
 		height: 1200px;
+		margin-bottom: 200px;
 	}
 
 	.time{
