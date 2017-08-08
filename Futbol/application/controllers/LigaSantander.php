@@ -274,6 +274,27 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Sobrevivientes(){
+		$data['titulo'] ="Camp Nou se rinde ante los sobrevivientes del Chapecoense";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Sobrevivientes');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Barca_chape(){
+		$data['titulo'] ="Barcelona golea al Chape y se adjudica el Trofeo Joan Gamper";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Barca_chape');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Coutinho_condiciona(){
+		$data['titulo'] ="Coutinho condiciona al Barça para abandonar Liverpool";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Coutinho_condiciona');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 

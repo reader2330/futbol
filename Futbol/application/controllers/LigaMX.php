@@ -261,6 +261,13 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Palencia_pumas(){
+		$data['titulo'] ="Altos mandos de Pumas analizarán continuidad de Palencia";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Palencia_pumas');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 
