@@ -62,6 +62,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 			<br>
 			<br>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			<br>
+			<br>
 			<p>
 
 				Por otro lado, Lobos declaró que ambos jugadores se encuentran fuera de peligro y que se recuperan en un hospital de la ciudad de Puebla. 
@@ -74,7 +86,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br>
 			<br>
 			<br>
-			
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 			<br>
 			<br>
 			<br>

@@ -309,6 +309,27 @@ class LigaSantander extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+    public function FC(){
+        $data['titulo'] ="LA FC, nuevo club de Carlos Vela";
+        $this->load->view('futbol/header',$data);
+        $this->load->view('futbol/FC');
+        $this->load->view('futbol/footer');
+    }
+
+    public function Supercopa(){
+        $data['titulo'] ="Real Madrid olvida mala pretemporada y se lleva Supercopa de Europa";
+        $this->load->view('futbol/header',$data);
+        $this->load->view('futbol/Supercopa');
+        $this->load->view('futbol/footer');
+    }
+
+    public function Regalo(){
+        $data['titulo'] ="Mou regala su medalla de subcampeón a fan del Man Utd";
+        $this->load->view('futbol/header',$data);
+        $this->load->view('futbol/Regalo');
+        $this->load->view('futbol/footer');
+    }
+
 
 
 

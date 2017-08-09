@@ -53,6 +53,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			El Eintracht Frankfurt presumió al mundo a Carlos Salcedo y Marco Fabián en la presentación oficial del equipo de cara al inicio de la temporada 2017-18 de la Bundesliga.    
 			</p>
 
+			<br>
+			<br>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			<br>
+			<br>
+
 			
 			
 			<p>
@@ -72,13 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br>
 			<br>
 			
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
+		
 
 			
 

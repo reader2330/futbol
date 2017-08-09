@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br>
 				<br>
 				<center class="centrar">
-					<a href="<? base_url(); ?>Categorias/LigaMX" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
+					<a href="<? base_url(); ?>LigaMX" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
 				</center>
 			</div>
 			<div class="resultado">

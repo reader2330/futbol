@@ -54,6 +54,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</p>
 			<br>
 			<br>
+			<br>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			<br>
+			<br>
 			<p>
 				Te dejamos algunos de los casos más sonados del balompié mexicano, en futbolistas se han visto inmiscuidos.
 			</p>
@@ -73,6 +86,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<img src="<?= base_url() ?>img/MX/Futbolistas_Manchado1.jpg" align="center" alt="Jugadores Manchados en su carrera">
 			<br>
 			<br>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 			<br>
 			<br>
 			<h5>OCHO JUGADORES DEL TRI SON APARTADOS DE LA CONCENTRACIÓN TRAS CITAR A PROSTITUTAS</h5>
@@ -88,6 +111,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<img src="<?= base_url() ?>img/MX/Futbolistas_Manchado2.jpg" align="center" alt="Jugadores Manchados en su carrera">
 			<br>
 			<br>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 			<br>
 			<br>
 			<h5>RONALDINHO Y SU 'AFICIÓN' HACIA LA FIESTA</h5>
@@ -129,6 +162,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br>
 			<br>
 			<br>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+			style="display:block; text-align:center;"
+			data-ad-format="fluid"
+			data-ad-layout="in-article"
+			data-ad-client="ca-pub-8121027888898713"
+			data-ad-slot="1916715311"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 			<br>
 			<h5>JULIÁN QUIÑONES Y WILLIAM PALACIOS SE VEN ENVUELTOS EN RIÑA</h5>
 			<p>
