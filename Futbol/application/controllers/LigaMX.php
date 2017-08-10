@@ -268,6 +268,15 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Marquez_Narcotrafico(){
+		$data['titulo'] ="Márquez niega cualquier relación con el narcotráfico";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Marquez_Narcotrafico');
+		$this->load->view('futbol/footer');
+	}
+
+	
+
 
 
 

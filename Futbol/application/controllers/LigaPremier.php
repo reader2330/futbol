@@ -105,6 +105,36 @@ class LigaPremier extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Henry_Chicharito(){
+		$data['titulo'] ="Henry elogia a West Ham por el fichaje de Chicharito";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Henry_Chicharito');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Chicharito_Vela(){
+		$data['titulo'] ="Chicharito aplaude partida de Carlos Vela a la MLS";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Chicharito_Vela');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Ney_Alves(){
+		$data['titulo'] ="Neymar y Alves habrían pedido a Alexis que fiche con PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Ney_Alves');
+		$this->load->view('futbol/footer');
+	}
+
+	
+
+
+
+
+
+
+
+
 }
 
 ?>
