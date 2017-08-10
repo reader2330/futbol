@@ -330,6 +330,16 @@ class LigaSantander extends CI_Controller {
         $this->load->view('futbol/footer');
     }
 
+    public function Ney_Barca(){
+        $data['titulo'] ="Neymar demandaría al Barça por no pagarle prima de renovación";
+        $this->load->view('futbol/header',$data);
+        $this->load->view('futbol/Ney_Barca');
+        $this->load->view('futbol/footer');
+    }
+
+
+
+
 
 
 
