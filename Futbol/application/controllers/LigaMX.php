@@ -282,6 +282,20 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Mexico_ranking(){
+		$data['titulo'] ="Tri escala dos posiciones en ranking FIFA, pese a 'oso' en Copa Oro";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mexico_ranking');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Mexico_2026(){
+		$data['titulo'] ="Mexico competirá con Marruecos para organizar Mundial de 2026";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mexico_2026');
+		$this->load->view('futbol/footer');
+	}
+
 	
 
 	
