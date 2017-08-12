@@ -126,6 +126,15 @@ class LigaPremier extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Coutinho_Liverpool(){
+		$data['titulo'] ="Coutinho habría presentado solicitud de traspaso para salir de Liverpool";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Coutinho_Liverpool');
+		$this->load->view('futbol/footer');
+	}
+
+	
+
 	
 
 

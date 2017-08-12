@@ -388,6 +388,26 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Mbappe_PSG(){
+		$data['titulo'] ="Mbappé estaría arreglado para fichar con el PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mbappe_PSG');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Vela_DosSantos(){
+		$data['titulo'] ="Vela quiere 'matar' a los Dos Santos en Clásico de LA";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Vela_DosSantos');
+		$this->load->view('futbol/footer');
+	}
+
+
+
+	
+
+
+
 
 
 
