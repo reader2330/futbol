@@ -71,7 +71,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="imagen">
                 <img src="<?= base_url() ?>img/Mexico/mexico2.jpg" align="center">
             </div>
-
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -84,6 +91,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
 
