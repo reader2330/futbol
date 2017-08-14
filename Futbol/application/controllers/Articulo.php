@@ -402,6 +402,34 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Ney_Gol(){
+		$data['titulo'] ="Neymar se estrena como goleador en su primer juego de Ligue 1";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Ney_Gol');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Ochoa_Derrota(){
+		$data['titulo'] ="Confusión entre Ochoa y defensa provoca derrota de Lieja";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Ochoa_Derrota');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Bielsa_Porteros(){
+		$data['titulo'] ="Equipo de Bielsa juega con tres porteros en un mismo partido";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Bielsa_Porteros');
+		$this->load->view('futbol/footer');
+	}
+
+	
+
+
+
+
+
+
 
 
 	

@@ -296,6 +296,16 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Palencia_Respaldo(){
+		$data['titulo'] ="Palencia asegura que se siente respaldado en Pumas";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Palencia_Respaldo');
+		$this->load->view('futbol/footer');
+	}
+
+
+	
+
 	
 
 	

@@ -133,6 +133,16 @@ class LigaPremier extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function ManU_West(){
+		$data['titulo'] ="Man Utd humilla al West Ham en su presentación en Premier ";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/ManU_West');
+		$this->load->view('futbol/footer');
+	}
+
+
+	
+
 	
 
 	
