@@ -140,9 +140,19 @@ class LigaPremier extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
-
+	public function Chicharito_DT(){
+		$data['titulo'] ="DT de West Ham califica como decente actuación de Chicharito";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Chicharito_DT');
+		$this->load->view('futbol/footer');
+	}
 	
-
+	public function Alexis_PSG(){
+		$data['titulo'] ="Alexis Sánchez estaría en Francia para cerrar fichaje con PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Alexis_PSG');
+		$this->load->view('futbol/footer');
+	}
 	
 
 	

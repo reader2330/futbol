@@ -337,7 +337,12 @@ class LigaSantander extends CI_Controller {
         $this->load->view('futbol/footer');
     }
 
-
+    public function Messi_Neymar(){
+        $data['titulo'] ="Messi habría ofrecido a Neymar 'hacerlo' Balón de Oro";
+        $this->load->view('futbol/header',$data);
+        $this->load->view('futbol/Messi_Neymar');
+        $this->load->view('futbol/footer');
+    }
 
 
 

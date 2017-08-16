@@ -423,6 +423,30 @@ class Articulo extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Ochoa_Partido(){
+		$data['titulo'] ="Ochoa, elegido como jugador del partido en derrota del Lieja";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Ochoa_Partido');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Mexico_Estadios(){
+		$data['titulo'] ="México, con sólo tres posibles estadios para Mundial de 2026";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Mexico_Estadios');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Lozano_PSV(){
+		$data['titulo'] ="Chucky Lozano, elogiado por Cocu tras debut con PSV";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Lozano_PSV');
+		$this->load->view('futbol/footer');
+	}	
+
+
+	
+
 	
 
 
