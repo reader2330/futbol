@@ -153,6 +153,20 @@ class LigaPremier extends CI_Controller {
 		$this->load->view('futbol/Alexis_PSG');
 		$this->load->view('futbol/footer');
 	}
+
+	public function Raul_Benfica(){
+		$data['titulo'] ="Falta de minutos complica fichaje de Jiménez a la Premier";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Raul_Benfica');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Salcedo_Eintracht(){
+		$data['titulo'] ="Carlos Salcedo, en duda para el debut del Eintracht en Liga";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Salcedo_Eintracht');
+		$this->load->view('futbol/footer');
+	}
 	
 
 	

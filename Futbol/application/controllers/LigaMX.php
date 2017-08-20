@@ -303,6 +303,12 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Manuel_Xolos(){
+		$data['titulo'] ="Juan Manuel Iturbe sería nuevo jugador de Xolos";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Manuel_Xolos');
+		$this->load->view('futbol/footer');
+	}
 
 	
 

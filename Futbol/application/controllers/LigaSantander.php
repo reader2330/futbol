@@ -344,6 +344,13 @@ class LigaSantander extends CI_Controller {
         $this->load->view('futbol/footer');
     }
 
+    public function Ochoa_goleada(){
+        $data['titulo'] ="Ochoa sufre su primera goleada con el Standard Lieja";
+        $this->load->view('futbol/header',$data);
+        $this->load->view('futbol/Ochoa_goleada');
+        $this->load->view('futbol/footer');
+    }
+
 
 
 
