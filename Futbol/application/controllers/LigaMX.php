@@ -310,6 +310,20 @@ class LigaMX extends CI_Controller {
 		$this->load->view('futbol/footer');
 	}
 
+	public function Fabian(){
+		$data['titulo'] ="Marco Fabián se perderá el resto de la eliminatoria mundialista ";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Fabian');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Higuera(){
+		$data['titulo'] ="Higuera asegura que México no está para gastar en un Mundial";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Higuera');
+		$this->load->view('futbol/footer');
+	}
+
 	
 
 	

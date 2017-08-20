@@ -1,11 +1,11 @@
                 
                 <br>
                 <br>
-                <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/footer3.css">
+                <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/footer4.css">
                 <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/foteerr6.css">
-
-               <div class="pie">
-                <footer class="footer">
+                </div>
+               <div class="pie" style="width: 100%">
+                <footer class="footer" style="width: 100%">
                       <div class="container">
                              <span>Siguenos en nuestras redes sociales</span>
 

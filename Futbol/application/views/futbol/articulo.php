@@ -1,89 +1,179 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-?>
+class Articulo extends CI_Controller {
 
-<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/articulo12.css">
+	function __construct(){
+		parent::__construct();
+	}
 
-<div class="container">
+
+
+	public function index(){
+		$data['titulo'] = "Osorio dirige su primera practica frente al reto de la Copa Oro.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo');
+		$this->load->view('futbol/footer');
+	}
+
+	public function articulo2(){
+		$data['titulo'] = "Nuevo Integrante del Real Madrid";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo2');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function articulo3(){
+		$data['titulo'] = "James Rodríguez, refuerzo de lujo del Bayern Munich.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articulo3');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function juventus_cancela(){
+		$data['titulo'] = "Juventus cancela partido frente a Monterrey y Tigres.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/juventus_cancela');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function articuloChivas(){
+		$data['titulo'] = "Chivas apuesta por mas canteranos para el siguiente torneo.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articuloChivas');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function articuloJugadoresSancionados(){
+		$data['titulo'] = "Te recordamos los jugadores sancionados para el arranque del torneo apertura 2017.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/articuloJugadoresSancionados');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function tecatito_rompe(){
+		$data['titulo'] = "Rompe silencio Tecatito.";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/tecatito_rompe');
+		$this->load->view('futbol/footer');
+	} 
+
+
+	public function duenias(){
+		$data['titulo'] ="'No jugamos para darle gusto a la gente': Jesús Dueñas";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/duenias');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function grito(){
+		$data['titulo'] = "Afición del Tri en Denver se manifiesta para erradicar el 'eh p...'";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/grito');
+		$this->load->view('futbol/footer');
+	}
+
+	public function chivas_playera(){
+		$data['titulo'] = "Chivas presume la 12 en flamante jersey para Apertura 2017";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/chivas_playera');
+		$this->load->view('futbol/footer');
+	}
+
 	
 
-	<br>
-	<br>
-	<br>
-	<h1 align="center">Osorio dirige su primera practica frente al reto de la Copa Oro.</h1>
-	<br>
-	<br>
-	<br>
-
-	<div class="imagen">
-		<img src="<?= base_url() ?>img/Osorio/osorio1.png" align="center">
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="contenido">
-		<div class="datos">
-
-			<div class="autor">
-				<p align="center">Hecho : Fernando Aguirre
-					@reader2330
-				</p>
-
-			</div>
-
-		</div>
-		<div class="texto">
-
-
-
-			<p>Juan Carlos Osorio, Director Técnico de la Selección Nacional de México, trabajó por primera vez con los mexicanos que participarán en la Copa Oro 2017.
-				El día de hoy, por la tarde, el estratega nacional y su Cuerpo Técnico entrenaron por espacio de una hora y media en las instalaciones de la Universidad de California San Diego (UCSD).
-			</p>
-
-			<br>
-			<br>		
-			<img src="<?= base_url() ?>img/Osorio/osorio2.png" align="center">
-			<br>
-			<br>
-			<p>
-				Los 22 jugadores que ya se encuentran en la sede del primer duelo de México en el certamen de la CONCACAF, se mostraron comprometidos y con el ánimo a tope, esperando el momento del debut ante El Salvador el próximo domingo 9 de julio.
-
-			</p>
-
-			<img src="<?= base_url() ?>img/Osorio/osorio3.png" align="center">
-
-			<p>
-				
-				Tras 20 minutos de trabajo con su Preparador Físico, Jorge Ríos, los mexicanos trabajaron bajo las órdenes de su timonel Juan Carlos Osorio, quien sólo espera la llegada de Erick Torres para tener a su equipo completo.
-				Seré este jueves, por la mañana, cuando el delantero del Houston Dynamo arribe a San Diego.
-
-
-			</p>
-
-			<br>
-			<br>
-
-			
-
-
-
-		</div>
-	</div>
+	public function Amenaza_bomba(){
+		$data['titulo'] = "Amenaza de bomba en UCLA da susto al Real Madrid";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/amenaza');
+		$this->load->view('futbol/footer');
+	}
 
 
 
 
+	public function ochoa(){
+		$data['titulo'] ="'La gente en México cree que es fácil estar en Europa': Ochoa";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/ochoa');
+		$this->load->view('futbol/footer');
+	} 
+
+	public function zlatan(){
+		$data['titulo'] ="Zlatan estaría cerca de aceptar una oferta del Galaxy";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/zlatan');
+		$this->load->view('futbol/footer');
+	}
+
+	public function moreno(){
+		$data['titulo'] ="Moreno arriba a Roma y se pone la '15' de La Loba ";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/moreno');
+		$this->load->view('futbol/footer');
+	}
+
+	public function america(){
+		$data['titulo'] ="	América, 'rejuvenecido' para el Apertura 2017";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/america');
+		$this->load->view('futbol/footer');
+	}
+	public function ajax(){
+		$data['titulo'] ="Aficionados abarrotan las calles en apoyo a juvenil del Ajax";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/ajax');
+		$this->load->view('futbol/footer');
+	}
+	public function disculpa(){
+		$data['titulo'] ="Dueñas se disculpa con afición mexicana";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/disculpa');
+		$this->load->view('futbol/footer');
+	}
+
+	public function directivos(){
+		$data['titulo'] ="Directivos de Liga MX le dicen no a Osorio para reforzar al Tri";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/directivos');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function neymar(){
+		$data['titulo'] ="Neymar dejaría al Bacelona para ser protagonista del PSG";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/neymar');
+		$this->load->view('futbol/footer');
+
+	}
+
+	public function rayados(){
+		$data['titulo'] ="Rayados hace oficial salida de Cardona a Boca Juniors";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/rayados');
+		$this->load->view('futbol/footer');
+
+	}
+	public function chicharito(){
+		$data['titulo'] ="West Ham estaría dispuesto a pagar cláusula por Chicharito";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/chicharito');
+		$this->load->view('futbol/footer');
+
+	}
+	public function lozano(){
+		$data['titulo'] ="Chuky Lozano reporta con PSV para la pre-temporada";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Lozano');
+		$this->load->view('futbol/footer');
+
+	}
 
 
 
-</div>	
+
+}
+
+?>

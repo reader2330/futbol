@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/neymar/paris.png" align="center">
+		<img src="<?= base_url() ?>img/neymar/paris.jpg" align="center">
 	</div>
 	<br>
 	<br>

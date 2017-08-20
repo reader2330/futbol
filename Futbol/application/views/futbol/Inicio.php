@@ -10,6 +10,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<? base_url() ?>assets/css/estilos6.css">
 	<link rel="stylesheet" type="text/css" href="<? base_url() ?>assets/css/inicior5.css">
 
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-8121027888898713",
+			enable_page_level_ads: true
+		});
+	</script>
+
 
 
 
@@ -78,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br>
 				<br>
 				<center class="centrar">
-					<a href="<? base_url(); ?>LigaMX" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
+					<a href="<? base_url(); ?>Categorias/LigaMX" class="btn btn-primary" id="inicio" style="margin-left:15px">Leer más</a>
 				</center>
 			</div>
 			<div class="resultado">

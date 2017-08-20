@@ -69,20 +69,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="imagen">
 				<img src="<?= base_url() ?>img/Coutinho/Coutinho2.jpg" align="center">
 			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+
 			<p>
 				Según 'Sky Sports', la figura de los Reds habría dado 'luz verde' para arribar a la institución blaugrana, siempre y cuando la negociación entre la directiva española y la inglesa sea "amigable". El fichaje rondaría los 100 millones de euros. <br>
 				Todo parece indicar que Coutinho, quien es muy querido por los seguidores de Liverpool y considerado como su figura, no quisiera abandonar Anfield dando una mala imagen como 'traidor', por lo que esperaría un acuerdo sin complicaciones. 
- <br>   
+				<br> 
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<ins class="adsbygoogle"
-			style="display:block; text-align:center;"
-			data-ad-format="fluid"
-			data-ad-layout="in-article"
-			data-ad-client="ca-pub-8121027888898713"
-			data-ad-slot="1916715311"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+				<ins class="adsbygoogle"
+				style="display:block; text-align:center;"
+				data-ad-format="fluid"
+				data-ad-layout="in-article"
+				data-ad-client="ca-pub-8121027888898713"
+				data-ad-slot="1916715311"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 				
 
 

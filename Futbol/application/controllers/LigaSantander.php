@@ -351,6 +351,20 @@ class LigaSantander extends CI_Controller {
         $this->load->view('futbol/footer');
     }
 
+     public function Espanola(){
+		$data['titulo'] ="Liga española, con sólo dos representantes mexicanos";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Espanola');
+		$this->load->view('futbol/footer');
+	}
+
+	public function Suarez(){
+		$data['titulo'] ="Luis Suárez escupe y hace seña obscena a grada del Madrid";
+		$this->load->view('futbol/header',$data);
+		$this->load->view('futbol/Suarez');
+		$this->load->view('futbol/footer');
+	}
+
 
 
 

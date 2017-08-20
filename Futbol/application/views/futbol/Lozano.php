@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br>
 
 	<div class="imagen">
-		<img src="<?= base_url() ?>img/lozano.jpg" align="center" alt="Zlatan Ibrahimovic">
+		<img src="<?= base_url() ?>img/lozano/lozano1.png" align="center" alt="Zlatan Ibrahimovic">
 	</div>
 	<br>
 	<br>
